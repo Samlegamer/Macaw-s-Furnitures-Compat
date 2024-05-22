@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:ebony_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_door"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:ebony_wardrobe",
+        "count": 4
+    }
+}

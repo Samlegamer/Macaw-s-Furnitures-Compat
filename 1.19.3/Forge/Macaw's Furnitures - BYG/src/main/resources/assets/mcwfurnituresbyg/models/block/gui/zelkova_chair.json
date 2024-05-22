@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/chair",
+	"textures": {
+		"0": "byg:block/zelkova/log",
+		"3": "byg:block/zelkova/stripped_log"
+	}
+}

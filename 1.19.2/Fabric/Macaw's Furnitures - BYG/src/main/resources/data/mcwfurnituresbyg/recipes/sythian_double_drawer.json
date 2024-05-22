@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"ABA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:sythian_stem"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:sythian_double_drawer",
+        "count": 4
+    }
+}

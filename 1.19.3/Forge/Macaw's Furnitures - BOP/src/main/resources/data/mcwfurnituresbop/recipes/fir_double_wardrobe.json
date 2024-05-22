@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BAB",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:fir_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_door"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:fir_double_wardrobe",
+        "count": 4
+    }
+}

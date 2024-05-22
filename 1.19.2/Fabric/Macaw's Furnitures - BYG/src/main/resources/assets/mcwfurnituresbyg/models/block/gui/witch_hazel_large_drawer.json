@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/large_drawer",
+	"textures": {
+		"0": "byg:block/witch_hazel/stripped_log",
+		"1": "byg:block/witch_hazel/log",
+		"particle": "byg:block/witch_hazel/log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

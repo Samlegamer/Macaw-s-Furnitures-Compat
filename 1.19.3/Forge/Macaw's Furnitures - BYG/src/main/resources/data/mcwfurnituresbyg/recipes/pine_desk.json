@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:pine_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:pine_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:pine_desk",
+        "count": 2
+    }
+}

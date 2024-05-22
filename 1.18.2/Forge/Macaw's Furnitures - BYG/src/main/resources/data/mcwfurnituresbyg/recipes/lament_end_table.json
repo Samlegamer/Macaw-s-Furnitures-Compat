@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:lament_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:lament_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:lament_end_table",
+        "count": 1
+    }
+}

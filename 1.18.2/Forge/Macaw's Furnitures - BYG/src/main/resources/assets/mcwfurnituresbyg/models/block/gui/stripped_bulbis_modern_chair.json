@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_chair",
+	"textures": {
+		"0": "byg:block/stripped_bulbis_stem",
+		"3": "byg:block/bulbis_stem"
+	}
+}

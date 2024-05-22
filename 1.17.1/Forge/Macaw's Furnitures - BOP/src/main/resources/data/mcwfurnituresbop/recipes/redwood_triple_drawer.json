@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"BAB"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:redwood_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:redwood_triple_drawer",
+        "count": 4
+    }
+}

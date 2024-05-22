@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:cika_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:cika_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:cika_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cika_modern_chair",
+        "count": 1
+    }
+}

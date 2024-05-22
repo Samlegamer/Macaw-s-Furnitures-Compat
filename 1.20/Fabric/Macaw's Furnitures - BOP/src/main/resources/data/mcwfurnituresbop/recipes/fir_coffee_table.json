@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:fir_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomesoplenty:fir_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:fir_coffee_table",
+        "count": 1
+    }
+}

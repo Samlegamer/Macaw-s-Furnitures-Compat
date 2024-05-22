@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/lower_triple_drawer",
+	"textures": {
+		"0": "byg:block/zelkova/log",
+		"1": "byg:block/zelkova/stripped_log",
+		"particle": "byg:block/zelkova/log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

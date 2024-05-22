@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"ABA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:blue_enchanted_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:blue_enchanted_double_drawer",
+        "count": 4
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:bulbis_stem"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:bulbis_covered_desk",
+        "count": 2
+    }
+}

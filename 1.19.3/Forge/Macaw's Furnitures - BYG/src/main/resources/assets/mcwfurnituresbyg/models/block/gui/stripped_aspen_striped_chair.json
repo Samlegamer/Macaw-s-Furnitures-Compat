@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/striped_chair",
+	"textures": {
+		"0": "byg:block/aspen/stripped_log",
+		"3": "byg:block/aspen/log"
+	}
+}

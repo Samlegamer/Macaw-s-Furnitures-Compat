@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:holly_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:holly_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:holly_desk",
+        "count": 2
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BAC",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:sythian_stem"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_door"
+        },
+		
+	    "C":
+        {
+            "item": "minecraft:book"
+        } 
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:sythian_bookshelf_cupboard",
+        "count": 4
+    }
+}

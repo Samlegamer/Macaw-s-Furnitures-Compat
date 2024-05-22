@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:blue_enchanted_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:blue_enchanted_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:blue_enchanted_desk",
+        "count": 2
+    }
+}

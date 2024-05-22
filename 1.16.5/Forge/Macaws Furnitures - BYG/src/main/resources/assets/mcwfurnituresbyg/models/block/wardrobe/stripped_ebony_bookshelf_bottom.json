@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/bookshelf_bottom",
+	"textures": {
+		"2": "minecraft:block/bookshelf",
+		"1": "minecraft:block/ebony_log",
+		"0": "minecraft:block/stripped_ebony_log",
+		"particle": "minecraft:block/stripped_ebony_log"
+	}
+}

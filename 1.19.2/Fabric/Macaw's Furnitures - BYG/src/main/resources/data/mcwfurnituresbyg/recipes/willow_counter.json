@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:willow_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:willow_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:willow_counter",
+        "count": 1
+    }
+}

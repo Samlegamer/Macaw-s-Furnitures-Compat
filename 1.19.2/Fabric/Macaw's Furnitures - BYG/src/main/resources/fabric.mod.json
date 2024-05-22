@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mcwfurnituresbyg",
+  "version": "1.19.2-1.1",
+
+  "name": "Macaw's Furnitures - BYG",
+  "description": "Compatibility between Macaw's Furnitures and Oh The Biomes You'll Go for Minecraft 1.19.2 !",
+  "authors": [
+    "Samlegamer"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-furnitures-oh-the-biomes-youll-go",
+    "sources": "https://github.com/Samlegamer/Macaw-s-Furnitures-Compat/issues"
+  },
+
+  "license": "All rights reserved",
+  "icon": "assets/mcwfurnituresbyg/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.samlegamer.mcwfurnituresbyg.McwFurnituresBYG"
+    ],
+    "client": [
+      "fr.samlegamer.mcwfurnituresbyg.McwFurnituresBYGClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

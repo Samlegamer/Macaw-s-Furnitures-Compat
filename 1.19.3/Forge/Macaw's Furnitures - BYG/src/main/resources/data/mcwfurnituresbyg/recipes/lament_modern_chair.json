@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:lament_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:lament_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:lament_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:lament_modern_chair",
+        "count": 1
+    }
+}

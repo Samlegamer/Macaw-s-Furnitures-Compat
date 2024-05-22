@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:willow_log"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:willow_slab"
+        },
+		
+		"C":
+        {
+            "item": "biomesoplenty:willow_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:willow_striped_chair",
+        "count": 1
+    }
+}

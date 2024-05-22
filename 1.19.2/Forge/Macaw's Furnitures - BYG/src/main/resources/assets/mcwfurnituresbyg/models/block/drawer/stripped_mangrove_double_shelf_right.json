@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_shelf_right",
+	"textures": {
+		"0": "minecraft:block/iron_block",
+		"1": "biomesoplenty:block/mangrove/stripped_log",
+		"2": "biomesoplenty:block/mangrove/log",
+		"particle": "biomesoplenty:block/mangrove/stripped_log"
+	}
+}

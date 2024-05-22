@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Samlegamer/Macaw-s-Furnitures-Compat/issues"
+
+[[mods]]
+modId="mcwfurnituresbop"
+version="1.19.4-1.0"
+displayName="Macaw's Furnitures - BOP"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-furnitures-biomes-o-plenty"
+logoFile="logo.png"
+credits="sketch_macaw"
+authors="Samlegamer"
+#displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
+
+description='''
+Compatibility Biome O' Plenty with Macaw's Furnitures for Minecraft 1.19.4 !
+'''
+
+[[dependencies.mcwfurnituresbop]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mcwfurnituresbop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"

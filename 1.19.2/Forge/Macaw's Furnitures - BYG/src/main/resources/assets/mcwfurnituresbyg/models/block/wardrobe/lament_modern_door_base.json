@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_base",
+	"textures": {
+		"2": "byg:block/lament/log",
+		"4": "byg:block/lament/stripped_log",
+		"particle": "byg:block/lament/log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:imparius_stem"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:imparius_covered_desk",
+        "count": 2
+    }
+}

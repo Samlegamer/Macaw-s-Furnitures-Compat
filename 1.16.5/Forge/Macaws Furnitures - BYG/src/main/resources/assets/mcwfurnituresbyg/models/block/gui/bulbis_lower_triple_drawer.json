@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/lower_triple_drawer",
+	"textures": {
+		"0": "byg:block/stripped_bulbis_stem",
+		"1": "byg:block/bulbis_stem",
+		"particle": "byg:block/stripped_bulbis_stem",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

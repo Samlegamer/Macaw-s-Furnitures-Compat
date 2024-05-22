@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/cupboard_counter_corner",
+	"textures": {
+		"1": "biomesoplenty:block/mangrove/stripped_log",
+		"2": "biomesoplenty:block/mangrove/log",
+		"particle": "biomesoplenty:block/mangrove/log",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

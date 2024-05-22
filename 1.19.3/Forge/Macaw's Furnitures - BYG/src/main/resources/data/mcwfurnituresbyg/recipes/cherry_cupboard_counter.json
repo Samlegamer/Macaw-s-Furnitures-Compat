@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:cherry_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:cherry_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cherry_cupboard_counter",
+        "count": 1
+    }
+}

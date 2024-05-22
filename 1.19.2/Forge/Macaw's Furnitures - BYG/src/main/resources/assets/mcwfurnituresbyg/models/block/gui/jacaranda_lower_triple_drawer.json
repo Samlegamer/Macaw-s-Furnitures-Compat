@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/lower_triple_drawer",
+	"textures": {
+		"0": "byg:block/jacaranda/stripped_log",
+		"1": "byg:block/jacaranda/log",
+		"particle": "byg:block/jacaranda/stripped_log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

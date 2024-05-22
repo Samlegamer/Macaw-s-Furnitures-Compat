@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/striped_chair",
+	"textures": {
+		"0": "byg:block/blue_enchanted_log",
+		"3": "byg:block/stripped_blue_enchanted_log"
+	}
+}

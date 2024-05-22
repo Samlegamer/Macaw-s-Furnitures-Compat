@@ -1,0 +1,6 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/covered_desk",
+	"textures": {
+		"2": "byg:block/bulbis/stripped_log"
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:zelkova_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:zelkova_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:zelkova_desk",
+        "count": 2
+    }
+}

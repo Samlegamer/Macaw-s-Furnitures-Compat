@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BCB"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:bulbis_stem"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:bulbis_fence"
+        },
+		
+		"C":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:bulbis_modern_desk",
+        "count": 2
+    }
+}

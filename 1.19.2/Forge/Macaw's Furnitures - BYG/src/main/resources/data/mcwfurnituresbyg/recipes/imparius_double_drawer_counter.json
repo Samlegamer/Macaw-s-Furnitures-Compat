@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:imparius_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:imparius_double_drawer"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:imparius_double_drawer_counter",
+        "count": 1
+    }
+}

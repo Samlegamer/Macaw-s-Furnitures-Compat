@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/drawer",
+	"textures": {
+		"0": "byg:block/green_enchanted/log",
+		"1": "byg:block/green_enchanted/stripped_log",
+		"particle": "byg:block/green_enchanted/stripped_log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:cherry_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:cherry_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cherry_end_table",
+        "count": 1
+    }
+}

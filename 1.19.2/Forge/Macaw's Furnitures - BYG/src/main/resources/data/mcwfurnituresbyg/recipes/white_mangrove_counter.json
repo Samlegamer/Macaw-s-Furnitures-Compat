@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:white_mangrove_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:white_mangrove_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:white_mangrove_counter",
+        "count": 1
+    }
+}

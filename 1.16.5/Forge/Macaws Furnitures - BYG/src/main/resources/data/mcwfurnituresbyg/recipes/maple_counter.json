@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:maple_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:maple_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:maple_counter",
+        "count": 1
+    }
+}

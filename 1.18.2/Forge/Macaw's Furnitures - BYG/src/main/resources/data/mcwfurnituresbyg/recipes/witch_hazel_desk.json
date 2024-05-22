@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:witch_hazel_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:witch_hazel_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:witch_hazel_desk",
+        "count": 2
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:cypress_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cypress_covered_desk",
+        "count": 2
+    }
+}

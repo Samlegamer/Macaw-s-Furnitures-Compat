@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:lament_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:lament_double_drawer"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:lament_double_drawer_counter",
+        "count": 1
+    }
+}

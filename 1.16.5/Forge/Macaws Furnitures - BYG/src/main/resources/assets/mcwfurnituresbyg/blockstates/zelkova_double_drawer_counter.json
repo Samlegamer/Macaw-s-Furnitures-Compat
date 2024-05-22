@@ -1,0 +1,9 @@
+
+{
+    "variants": {
+        "facing=east":  { "model": "mcwfurnituresbyg:block/counter/zelkova_double_counter", "y": 270 },
+        "facing=west":  { "model": "mcwfurnituresbyg:block/counter/zelkova_double_counter", "y": 90 },
+        "facing=south": { "model": "mcwfurnituresbyg:block/counter/zelkova_double_counter", "y": 0 },
+        "facing=north": { "model": "mcwfurnituresbyg:block/counter/zelkova_double_counter", "y": 180 }
+    }
+}

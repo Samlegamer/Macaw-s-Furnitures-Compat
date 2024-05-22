@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_wardrobe",
+	"textures": {
+		"1": "byg:block/lament/stripped_log",
+		"4": "byg:block/lament/log",
+		"particle": "byg:block/lament/stripped_log",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

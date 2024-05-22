@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_chair",
+	"textures": {
+		"0": "biomesoplenty:block/mahogany_log",
+		"3": "biomesoplenty:block/stripped_mahogany_log"
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:palm_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:palm_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:palm_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:palm_modern_chair",
+        "count": 1
+    }
+}

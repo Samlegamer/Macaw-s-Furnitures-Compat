@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:magic_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:magic_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:magic_counter",
+        "count": 1
+    }
+}

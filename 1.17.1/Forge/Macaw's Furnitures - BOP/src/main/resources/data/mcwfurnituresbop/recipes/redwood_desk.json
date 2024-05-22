@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:redwood_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomesoplenty:redwood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:redwood_desk",
+        "count": 2
+    }
+}

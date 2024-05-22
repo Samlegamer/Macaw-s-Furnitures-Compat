@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_desk",
+	"textures": {
+		"1": "biomesoplenty:block/stripped_redwood_log",
+		"2": "biomesoplenty:block/redwood_log"
+	}
+}

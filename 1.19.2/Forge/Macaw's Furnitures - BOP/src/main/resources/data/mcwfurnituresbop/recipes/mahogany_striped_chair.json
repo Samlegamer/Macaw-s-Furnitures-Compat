@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:mahogany_log"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:mahogany_slab"
+        },
+		
+		"C":
+        {
+            "item": "biomesoplenty:mahogany_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:mahogany_striped_chair",
+        "count": 1
+    }
+}

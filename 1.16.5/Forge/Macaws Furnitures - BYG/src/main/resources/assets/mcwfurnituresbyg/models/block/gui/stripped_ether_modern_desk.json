@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_desk",
+	"textures": {
+		"1": "byg:block/ether_log",
+		"2": "byg:block/stripped_ether_log"
+	}
+}

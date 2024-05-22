@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:baobab_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:baobab_covered_desk",
+        "count": 2
+    }
+}

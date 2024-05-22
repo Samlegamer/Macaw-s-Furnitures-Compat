@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_bottom",
+	"textures": {
+		"2": "byg:block/stripped_ebony_log",
+		"4": "byg:block/ebony_log",
+		"particle": "byg:block/stripped_ebony_log"
+	}
+}

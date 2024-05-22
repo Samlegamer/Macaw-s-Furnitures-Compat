@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:umbran_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:umbran_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:umbran_counter",
+        "count": 1
+    }
+}

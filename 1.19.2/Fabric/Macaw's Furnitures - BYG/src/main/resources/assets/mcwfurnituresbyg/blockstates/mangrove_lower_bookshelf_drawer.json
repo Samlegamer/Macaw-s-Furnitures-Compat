@@ -1,0 +1,23 @@
+{
+    "variants": {                                                                        
+        "facing=north,north=false,south=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_single", "y": 180, "x": 180},
+		"facing=north,north=true,south=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_middle", "y": 180, "x": 180},
+		"facing=north,north=true,south=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_right", "y": 180, "x": 180},
+		"facing=north,north=false,south=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_left", "y": 180, "x": 180},
+		
+		"facing=east,east=false,west=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_single", "y": 270, "x": 180},
+		"facing=east,east=true,west=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_middle", "y": 270, "x": 180},
+		"facing=east,east=true,west=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_right", "y": 270, "x": 180},
+		"facing=east,east=false,west=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_left", "y": 270, "x": 180},
+		
+		"facing=south,north=false,south=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_single", "x": 180},
+		"facing=south,north=true,south=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_middle", "x": 180},
+		"facing=south,north=false,south=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_right", "x": 180},
+		"facing=south,north=true,south=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_left", "x": 180},
+		
+		"facing=west,east=false,west=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_single", "y": 90, "x": 180},
+		"facing=west,east=true,west=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_middle", "y": 90, "x": 180},
+		"facing=west,east=false,west=true":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_right", "y": 90, "x": 180},
+		"facing=west,east=true,west=false":  { "model": "mcwfurnituresbop:block/drawer/mangrove_book_shelf_left", "y": 90, "x": 180}
+    }
+}

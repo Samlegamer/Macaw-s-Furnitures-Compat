@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:jacaranda_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomesoplenty:jacaranda_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:jacaranda_desk",
+        "count": 2
+    }
+}

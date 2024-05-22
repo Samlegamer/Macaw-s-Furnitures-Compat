@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:fir_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:fir_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:fir_end_table",
+        "count": 1
+    }
+}

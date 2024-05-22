@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:jacaranda_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:jacaranda_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:jacaranda_desk",
+        "count": 2
+    }
+}

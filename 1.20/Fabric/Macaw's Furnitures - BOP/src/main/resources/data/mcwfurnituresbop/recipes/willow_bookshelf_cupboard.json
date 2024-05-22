@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BAC",
+		"AAA"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:willow_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_door"
+        },
+		
+	    "C":
+        {
+            "item": "minecraft:book"
+        } 
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:willow_bookshelf_cupboard",
+        "count": 4
+    }
+}

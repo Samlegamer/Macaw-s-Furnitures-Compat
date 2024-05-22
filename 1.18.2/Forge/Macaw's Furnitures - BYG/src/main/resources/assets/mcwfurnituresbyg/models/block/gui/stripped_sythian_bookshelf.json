@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf",
+	"textures": {
+		"1": "byg:block/stripped_sythian_stem",
+		"3": "minecraft:block/bookshelf",
+		"4": "byg:block/sythian_stem",
+		"particle": "byg:block/sythian_stem"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf",
+	"textures": {
+		"1": "biomesoplenty:block/willow_log",
+		"3": "minecraft:block/bookshelf",
+		"4": "biomesoplenty:block/stripped_willow_log",
+		"particle": "biomesoplenty:block/stripped_willow_log"
+	}
+}

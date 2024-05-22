@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_desk",
+	"textures": {
+		"1": "byg:block/bulbis/log",
+		"2": "byg:block/bulbis/stripped_log"
+	}
+}

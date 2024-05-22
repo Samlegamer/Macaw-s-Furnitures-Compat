@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf",
+	"textures": {
+		"1": "byg:block/holly/log",
+		"3": "minecraft:block/bookshelf",
+		"4": "byg:block/holly/stripped_log",
+		"particle": "byg:block/holly/stripped_log"
+	}
+}

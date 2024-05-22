@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:willow_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:willow_covered_desk",
+        "count": 2
+    }
+}

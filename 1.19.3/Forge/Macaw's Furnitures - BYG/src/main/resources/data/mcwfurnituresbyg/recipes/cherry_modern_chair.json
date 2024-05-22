@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:cherry_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:cherry_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:cherry_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cherry_modern_chair",
+        "count": 1
+    }
+}

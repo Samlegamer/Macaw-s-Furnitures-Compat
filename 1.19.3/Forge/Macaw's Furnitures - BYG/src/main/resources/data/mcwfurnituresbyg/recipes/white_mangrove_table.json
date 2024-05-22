@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:white_mangrove_coffee_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:white_mangrove_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:white_mangrove_table",
+        "count": 1
+    }
+}

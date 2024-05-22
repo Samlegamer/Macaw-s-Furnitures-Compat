@@ -1,0 +1,23 @@
+{
+    "variants": {                                                                        
+        "facing=north,connection=base":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_base", "y": 180},
+		"facing=north,connection=middle":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_middle", "y": 180},
+		"facing=north,connection=bottom":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 180},
+		"facing=north,connection=top":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 180, "x": 180},
+
+		"facing=east,connection=base":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_base", "y": 270},
+		"facing=east,connection=middle":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_middle", "y": 270},
+		"facing=east,connection=bottom":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 270},
+		"facing=east,connection=top":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 270, "x": 180},
+		
+		"facing=south,connection=base":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_base"},
+		"facing=south,connection=middle":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_middle"},
+		"facing=south,connection=bottom":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom"},
+		"facing=south,connection=top":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "x": 180},
+		
+		"facing=west,connection=base":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_base", "y": 90},
+		"facing=west,connection=middle":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_middle", "y": 90},
+		"facing=west,connection=bottom":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 90},
+		"facing=west,connection=top":  { "model": "mcwfurnituresbyg:block/wardrobe/baobab_bookshelf_bottom", "y": 90, "x": 180}
+    }
+}

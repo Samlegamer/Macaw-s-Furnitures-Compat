@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:mahogany_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:mahogany_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:mahogany_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:mahogany_modern_chair",
+        "count": 1
+    }
+}

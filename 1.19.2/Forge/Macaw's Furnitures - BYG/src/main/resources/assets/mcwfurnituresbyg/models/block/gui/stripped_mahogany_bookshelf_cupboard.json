@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf_cupboard",
+	"textures": {
+		"1": "byg:block/mahogany/stripped_log",
+		"3": "minecraft:block/bookshelf",
+		"4": "byg:block/mahogany/log",
+		"particle": "minecraft:block/iron_block",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

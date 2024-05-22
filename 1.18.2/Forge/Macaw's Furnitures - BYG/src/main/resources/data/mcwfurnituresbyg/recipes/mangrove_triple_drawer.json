@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+		"BAB"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:mangrove_log"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnitures:cabinet_drawer"
+        }
+		
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:mangrove_triple_drawer",
+        "count": 4
+    }
+}

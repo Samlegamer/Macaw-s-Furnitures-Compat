@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:redwood_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:redwood_covered_desk",
+        "count": 2
+    }
+}

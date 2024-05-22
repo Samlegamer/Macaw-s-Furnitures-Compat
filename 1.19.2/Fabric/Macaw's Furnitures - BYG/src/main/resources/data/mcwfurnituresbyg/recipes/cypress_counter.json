@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:cypress_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:cypress_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:cypress_counter",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_chair",
+	"textures": {
+		"0": "byg:block/cika/log",
+		"3": "byg:block/cika/stripped_log"
+	}
+}

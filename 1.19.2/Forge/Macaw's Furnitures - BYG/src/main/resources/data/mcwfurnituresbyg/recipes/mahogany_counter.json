@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:mahogany_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:mahogany_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:mahogany_counter",
+        "count": 1
+    }
+}

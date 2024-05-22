@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf",
+	"textures": {
+		"1": "byg:block/pine/stripped_log",
+		"3": "minecraft:block/bookshelf",
+		"4": "byg:block/pine/log",
+		"particle": "byg:block/pine/log"
+	}
+}

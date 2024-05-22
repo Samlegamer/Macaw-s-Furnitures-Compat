@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:nightshade_log"
+        }, 	
+		
+        "B":
+        {
+            "item": "byg:nightshade_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:nightshade_stool_chair",
+        "count": 1
+    }
+}

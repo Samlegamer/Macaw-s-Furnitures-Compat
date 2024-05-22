@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:cherry_log"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:cherry_slab"
+        },
+		
+		"C":
+        {
+            "item": "biomesoplenty:cherry_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:cherry_modern_chair",
+        "count": 1
+    }
+}

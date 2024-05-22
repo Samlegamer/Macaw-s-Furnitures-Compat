@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:pine_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:pine_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:pine_counter",
+        "count": 1
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:ether_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:ether_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:ether_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:ether_striped_chair",
+        "count": 1
+    }
+}

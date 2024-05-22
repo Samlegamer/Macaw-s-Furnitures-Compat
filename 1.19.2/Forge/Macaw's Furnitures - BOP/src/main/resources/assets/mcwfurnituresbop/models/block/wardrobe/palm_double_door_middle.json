@@ -1,0 +1,6 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_door_middle",
+	"textures": {
+		"4": "biomesoplenty:block/stripped_palm_log"
+	}
+}

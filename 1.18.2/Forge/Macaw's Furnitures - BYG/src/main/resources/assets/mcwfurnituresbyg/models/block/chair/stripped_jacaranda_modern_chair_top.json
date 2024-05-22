@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_chair_top",
+	"textures": {
+		"3": "byg:block/jacaranda_log",
+		"particle": "byg:block/stripped_jacaranda_log"
+	}
+}

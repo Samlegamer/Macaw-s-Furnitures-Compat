@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/wardrobe",
+	"textures": {
+		"1": "byg:block/stripped_bulbis_stem",
+		"4": "byg:block/bulbis_stem",
+		"particle": "minecraft:block/iron_block",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

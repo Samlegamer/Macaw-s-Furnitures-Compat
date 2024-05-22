@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_wardrobe_top",
+	"textures": {
+		"0": "minecraft:block/stripped_aspen_log",
+		"1": "minecraft:block/aspen_log",
+		"particle": "minecraft:block/stripped_aspen_log"
+	}
+}

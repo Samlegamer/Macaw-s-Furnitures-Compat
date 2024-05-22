@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/double_drawer",
+	"textures": {
+		"0": "byg:block/bulbis/stripped_log",
+		"1": "byg:block/bulbis/log",
+		"particle": "byg:block/bulbis/log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

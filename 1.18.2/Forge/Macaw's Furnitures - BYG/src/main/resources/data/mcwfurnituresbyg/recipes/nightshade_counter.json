@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:nightshade_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:nightshade_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:nightshade_counter",
+        "count": 1
+    }
+}

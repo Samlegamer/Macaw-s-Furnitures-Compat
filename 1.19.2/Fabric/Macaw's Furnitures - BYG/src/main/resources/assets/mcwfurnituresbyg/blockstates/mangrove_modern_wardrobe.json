@@ -1,0 +1,36 @@
+{
+    "variants": {                                                                        
+        "facing=north,above=false,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_left", "y": 180},
+		"facing=north,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_middle", "y": 180},
+		"facing=north,above=true,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_left", "y": 180},
+		"facing=north,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_top", "y": 180},
+
+		"facing=east,above=false,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_left", "y": 270},
+		"facing=east,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_middle", "y": 270},
+		"facing=east,above=true,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_left", "y": 270},
+		"facing=east,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_top", "y": 270},
+		
+		"facing=south,above=false,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_left"},
+		"facing=south,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_middle"},
+		"facing=south,above=true,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_left"},
+		"facing=south,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_top"},
+		
+		"facing=west,above=false,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_left", "y": 90},
+		"facing=west,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_middle", "y": 90},
+		"facing=west,above=true,below=false,hinge=left":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_left", "y": 90},
+		"facing=west,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_top", "y": 90},
+		
+		
+		"facing=north,above=false,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_right", "y": 180},
+		"facing=north,above=true,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_right", "y": 180},
+
+		"facing=east,above=false,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_right", "y": 270},
+		"facing=east,above=true,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_right", "y": 270},
+		
+		"facing=south,above=false,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_right"},
+		"facing=south,above=true,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_right"},
+		
+		"facing=west,above=false,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_base_right", "y": 90},
+		"facing=west,above=true,below=false,hinge=right":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_modern_wardrobe_bottom_right", "y": 90}
+    }
+}

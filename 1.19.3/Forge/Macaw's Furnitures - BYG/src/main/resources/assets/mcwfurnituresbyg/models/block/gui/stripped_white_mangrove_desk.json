@@ -1,0 +1,6 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/desk",
+	"textures": {
+		"2": "byg:block/white_mangrove/stripped_log"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_chair",
+	"textures": {
+		"0": "byg:block/imparius/log",
+		"3": "byg:block/imparius/stripped_log"
+	}
+}

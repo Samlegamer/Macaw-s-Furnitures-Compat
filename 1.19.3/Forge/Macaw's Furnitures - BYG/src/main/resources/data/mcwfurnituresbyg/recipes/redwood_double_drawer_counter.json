@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:redwood_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:redwood_double_drawer"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:redwood_double_drawer_counter",
+        "count": 1
+    }
+}

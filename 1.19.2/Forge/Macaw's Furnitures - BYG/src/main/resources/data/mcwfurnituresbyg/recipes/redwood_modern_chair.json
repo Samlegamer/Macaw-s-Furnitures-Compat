@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:redwood_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:redwood_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:redwood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:redwood_modern_chair",
+        "count": 1
+    }
+}

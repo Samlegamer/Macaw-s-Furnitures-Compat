@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/wardrobe",
+	"textures": {
+		"1": "byg:block/rainbow_eucalyptus/log",
+		"4": "byg:block/rainbow_eucalyptus/stripped_log",
+		"particle": "minecraft:block/iron_block",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

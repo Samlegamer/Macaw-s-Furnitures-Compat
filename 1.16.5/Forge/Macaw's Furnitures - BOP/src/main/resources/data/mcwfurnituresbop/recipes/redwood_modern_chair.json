@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:redwood_log"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:redwood_slab"
+        },
+		
+		"C":
+        {
+            "item": "biomesoplenty:redwood_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:redwood_modern_chair",
+        "count": 1
+    }
+}

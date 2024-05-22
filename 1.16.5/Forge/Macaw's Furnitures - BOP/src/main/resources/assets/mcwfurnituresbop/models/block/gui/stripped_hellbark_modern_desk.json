@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_desk",
+	"textures": {
+		"1": "biomesoplenty:block/hellbark_log",
+		"2": "biomesoplenty:block/stripped_hellbark_log"
+	}
+}

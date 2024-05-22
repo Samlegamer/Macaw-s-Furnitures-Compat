@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "B B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:palm_log"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomesoplenty:palm_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:palm_desk",
+        "count": 2
+    }
+}

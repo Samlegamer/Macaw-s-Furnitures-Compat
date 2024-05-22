@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/triple_drawer",
+	"textures": {
+		"0": "byg:block/nightshade/log",
+		"1": "byg:block/nightshade/stripped_log",
+		"particle": "byg:block/nightshade/log",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

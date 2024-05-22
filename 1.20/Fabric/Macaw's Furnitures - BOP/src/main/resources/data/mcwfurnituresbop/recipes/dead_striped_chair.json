@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomesoplenty:dead_log"
+        }, 
+		
+        "B":
+        {
+            "item": "biomesoplenty:dead_slab"
+        },
+		
+		"C":
+        {
+            "item": "biomesoplenty:dead_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:dead_striped_chair",
+        "count": 1
+    }
+}

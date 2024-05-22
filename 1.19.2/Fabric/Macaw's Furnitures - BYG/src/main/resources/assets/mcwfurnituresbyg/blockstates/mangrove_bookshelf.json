@@ -1,0 +1,23 @@
+{
+    "variants": {                                                                        
+        "facing=north,above=false,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_base", "y": 180},
+		"facing=north,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_middle", "y": 180},
+		"facing=north,above=true,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 180},
+		"facing=north,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 180, "x": 180},
+
+		"facing=east,above=false,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_base", "y": 270},
+		"facing=east,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_middle", "y": 270},
+		"facing=east,above=true,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 270},
+		"facing=east,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 270, "x": 180},
+		
+		"facing=south,above=false,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_base"},
+		"facing=south,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_middle"},
+		"facing=south,above=true,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom"},
+		"facing=south,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "x": 180},
+		
+		"facing=west,above=false,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_base", "y": 90},
+		"facing=west,above=true,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_middle", "y": 90},
+		"facing=west,above=true,below=false":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 90},
+		"facing=west,above=false,below=true":  { "model": "mcwfurnituresbop:block/wardrobe/mangrove_bookshelf_bottom", "y": 90, "x": 180}
+    }
+}

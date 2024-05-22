@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/door_bottom",
+	"textures": {
+		"2": "byg:block/zelkova_log",
+		"particle": "byg:block/zelkova_log"
+	}
+}

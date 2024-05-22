@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:willow_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:willow_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:willow_end_table",
+        "count": 1
+    }
+}

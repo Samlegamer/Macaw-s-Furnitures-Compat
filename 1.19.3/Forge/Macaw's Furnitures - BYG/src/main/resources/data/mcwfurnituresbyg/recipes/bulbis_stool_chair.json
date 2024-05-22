@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+		"A",
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:bulbis_stem"
+        }, 	
+		
+        "B":
+        {
+            "item": "byg:bulbis_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:bulbis_stool_chair",
+        "count": 1
+    }
+}

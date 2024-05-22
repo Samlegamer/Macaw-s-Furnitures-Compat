@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A",
+        "BC",
+		"CC"
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:white_mangrove_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:white_mangrove_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:white_mangrove_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:white_mangrove_striped_chair",
+        "count": 1
+    }
+}

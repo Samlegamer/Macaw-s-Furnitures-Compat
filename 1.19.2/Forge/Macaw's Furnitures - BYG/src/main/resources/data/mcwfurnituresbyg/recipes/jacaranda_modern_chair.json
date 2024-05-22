@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:jacaranda_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:jacaranda_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:jacaranda_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:jacaranda_modern_chair",
+        "count": 1
+    }
+}

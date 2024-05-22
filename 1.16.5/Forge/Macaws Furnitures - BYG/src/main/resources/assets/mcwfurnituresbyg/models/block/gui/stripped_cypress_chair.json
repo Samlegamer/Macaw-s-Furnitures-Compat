@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/chair",
+	"textures": {
+		"0": "byg:block/stripped_cypress_log",
+		"3": "byg:block/cypress_log"
+	}
+}

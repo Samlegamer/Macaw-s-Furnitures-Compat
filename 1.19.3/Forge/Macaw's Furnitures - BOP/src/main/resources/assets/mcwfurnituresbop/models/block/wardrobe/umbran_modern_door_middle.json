@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_middle",
+	"textures": {
+		"2": "biomesoplenty:block/umbran_log",
+		"particle": "biomesoplenty:block/umbran_log"
+	}
+}

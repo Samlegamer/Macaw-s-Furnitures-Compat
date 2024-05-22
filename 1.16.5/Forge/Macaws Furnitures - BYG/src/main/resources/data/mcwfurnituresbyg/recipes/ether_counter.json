@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:ether_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:ether_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:ether_counter",
+        "count": 1
+    }
+}

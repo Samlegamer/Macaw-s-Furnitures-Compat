@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_wardrobe_bottom",
+	"textures": {
+		"0": "minecraft:block/stripped_willow_log",
+		"1": "minecraft:block/willow_log",
+		"2": "minecraft:block/iron_block",
+		"particle": "minecraft:block/stripped_willow_log"
+	}
+}

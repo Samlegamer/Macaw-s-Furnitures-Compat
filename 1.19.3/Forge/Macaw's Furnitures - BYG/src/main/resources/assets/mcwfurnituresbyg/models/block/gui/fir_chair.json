@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/chair",
+	"textures": {
+		"0": "byg:block/fir/log",
+		"3": "byg:block/fir/stripped_log"
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BA",
+        "CC"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:baobab_log"
+        }, 
+		
+        "B":
+        {
+            "item": "byg:baobab_slab"
+        },
+		
+		"C":
+        {
+            "item": "byg:baobab_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:baobab_modern_chair",
+        "count": 1
+    }
+}

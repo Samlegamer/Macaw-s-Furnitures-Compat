@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:blue_enchanted_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "byg:blue_enchanted_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:blue_enchanted_end_table",
+        "count": 1
+    }
+}

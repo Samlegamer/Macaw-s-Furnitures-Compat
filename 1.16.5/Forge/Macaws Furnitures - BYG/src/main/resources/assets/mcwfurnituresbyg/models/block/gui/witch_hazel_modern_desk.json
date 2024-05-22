@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_desk",
+	"textures": {
+		"1": "byg:block/stripped_witch_hazel_log",
+		"2": "byg:block/witch_hazel_log"
+	}
+}

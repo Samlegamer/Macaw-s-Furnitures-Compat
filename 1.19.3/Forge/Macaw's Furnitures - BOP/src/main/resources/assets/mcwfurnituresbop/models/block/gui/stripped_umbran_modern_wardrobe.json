@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_wardrobe",
+	"textures": {
+		"1": "biomesoplenty:block/stripped_umbran_log",
+		"4": "biomesoplenty:block/umbran_log",
+		"particle": "biomesoplenty:block/stripped_umbran_log",
+		"2_1": "minecraft:block/iron_block"
+	}
+}
