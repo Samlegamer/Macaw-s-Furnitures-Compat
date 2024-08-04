@@ -1,9 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/modern_wardrobe",
-	"textures": {
-		"1": "byg:block/zelkova_log",
-		"4": "byg:block/stripped_zelkova_log",
-		"particle": "byg:block/zelkova_log",
-		"2_1": "minecraft:block/iron_block"
-	}
-}

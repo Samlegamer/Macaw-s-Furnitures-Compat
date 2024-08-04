@@ -1,7 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/modern_chair_top",
-	"textures": {
-		"3": "byg:block/stripped_willow_log",
-		"particle": "byg:block/willow_log"
-	}
-}

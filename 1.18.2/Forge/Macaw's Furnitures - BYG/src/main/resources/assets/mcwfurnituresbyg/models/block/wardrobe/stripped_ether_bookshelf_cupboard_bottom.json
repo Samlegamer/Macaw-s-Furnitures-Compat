@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/bookshelf_cupboard_bottom",
-	"textures": {
-		"3": "minecraft:block/bookshelf",
-		"4": "byg:block/ether_log",
-		"particle": "byg:block/ether_log"
-	}
-}

@@ -1,1 +1,3 @@
-{"parent": "mcwfurnituresbyg:block/drawer/maple_lower_book_shelf_single"}
+{
+  "parent": "mcwfurnituresbyg:block/drawer/maple_book_shelf_lower_single"
+}

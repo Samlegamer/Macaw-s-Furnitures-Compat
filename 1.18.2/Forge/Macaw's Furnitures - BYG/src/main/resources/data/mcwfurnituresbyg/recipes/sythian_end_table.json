@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+    "group": "end_table",
     "pattern":
     [
         "A",
@@ -27,3 +27,5 @@
         "count": 1
     }
 }
+
+

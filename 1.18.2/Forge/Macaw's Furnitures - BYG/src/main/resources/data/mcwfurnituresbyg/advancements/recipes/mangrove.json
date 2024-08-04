@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:mangrove_wardrobe",
+	  "mcwfurnituresbyg:mangrove_modern_wardrobe",
+	  "mcwfurnituresbyg:mangrove_double_wardrobe",
+	  "mcwfurnituresbyg:mangrove_bookshelf_cupboard",
+	  "mcwfurnituresbyg:mangrove_bookshelf",
+	  "mcwfurnituresbyg:mangrove_drawer",
+	  "mcwfurnituresbyg:mangrove_double_drawer",
+	  "mcwfurnituresbyg:mangrove_bookshelf_drawer",
+	  "mcwfurnituresbyg:mangrove_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:mangrove_large_drawer",
+	  "mcwfurnituresbyg:mangrove_lower_triple_drawer",
+	  "mcwfurnituresbyg:mangrove_triple_drawer",
+	  "mcwfurnituresbyg:mangrove_desk",
+	  "mcwfurnituresbyg:mangrove_covered_desk",
+	  "mcwfurnituresbyg:mangrove_modern_desk",
+	  "mcwfurnituresbyg:mangrove_table",
+	  "mcwfurnituresbyg:mangrove_end_table",
+	  "mcwfurnituresbyg:mangrove_coffee_table",
+	  "mcwfurnituresbyg:mangrove_glass_table",
+	  "mcwfurnituresbyg:mangrove_chair",
+	  "mcwfurnituresbyg:mangrove_modern_chair",
+	  "mcwfurnituresbyg:mangrove_striped_chair",
+	  "mcwfurnituresbyg:mangrove_stool_chair",
+	  "mcwfurnituresbyg:mangrove_counter",
+	  "mcwfurnituresbyg:mangrove_drawer_counter",
+	  "mcwfurnituresbyg:mangrove_double_drawer_counter",
+	  "mcwfurnituresbyg:mangrove_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_mangrove_wardrobe",
+	  "mcwfurnituresbyg:stripped_mangrove_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_mangrove_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_mangrove_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_mangrove_bookshelf",
+	  "mcwfurnituresbyg:stripped_mangrove_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_double_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_large_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_triple_drawer",
+	  "mcwfurnituresbyg:stripped_mangrove_desk",
+	  "mcwfurnituresbyg:stripped_mangrove_covered_desk",
+	  "mcwfurnituresbyg:stripped_mangrove_modern_desk",
+	  "mcwfurnituresbyg:stripped_mangrove_table",
+	  "mcwfurnituresbyg:stripped_mangrove_end_table",
+	  "mcwfurnituresbyg:stripped_mangrove_coffee_table",
+	  "mcwfurnituresbyg:stripped_mangrove_glass_table",
+	  "mcwfurnituresbyg:stripped_mangrove_chair",
+	  "mcwfurnituresbyg:stripped_mangrove_modern_chair",
+	  "mcwfurnituresbyg:stripped_mangrove_striped_chair",
+	  "mcwfurnituresbyg:stripped_mangrove_stool_chair",
+	  "mcwfurnituresbyg:stripped_mangrove_counter",
+	  "mcwfurnituresbyg:stripped_mangrove_drawer_counter",
+	  "mcwfurnituresbyg:stripped_mangrove_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_mangrove_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "byg:mangrove_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:mangrove_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

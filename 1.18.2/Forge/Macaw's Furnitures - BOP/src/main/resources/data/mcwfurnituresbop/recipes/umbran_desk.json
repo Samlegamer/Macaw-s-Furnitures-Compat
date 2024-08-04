@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+    "group": "desk",
     "pattern":
     [
         "AAA",
@@ -27,3 +27,5 @@
         "count": 2
     }
 }
+
+

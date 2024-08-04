@@ -1,9 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/bookshelf",
-	"textures": {
-		"1": "byg:block/stripped_imparius_stem",
-		"3": "minecraft:block/bookshelf",
-		"4": "byg:block/imparius_stem",
-		"particle": "byg:block/imparius_stem"
-	}
-}

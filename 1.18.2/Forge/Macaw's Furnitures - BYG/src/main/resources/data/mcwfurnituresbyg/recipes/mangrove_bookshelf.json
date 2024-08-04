@@ -1,6 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+    "group": "bookshelf",
+	
     "pattern":
     [
         "AAA",
@@ -28,3 +29,5 @@
         "count": 4
     }
 }
+
+

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+    "group": "modern_chair",
     "pattern":
     [
         "BA",
@@ -31,3 +31,5 @@
         "count": 1
     }
 }
+
+
