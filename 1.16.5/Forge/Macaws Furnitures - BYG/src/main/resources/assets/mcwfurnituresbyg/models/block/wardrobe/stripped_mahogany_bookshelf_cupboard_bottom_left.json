@@ -3,8 +3,8 @@
 	"textures": {
 		"2": "minecraft:block/iron_block",
 		"3": "minecraft:block/bookshelf",
-		"1": "minecraft:block/mahogany_log",
-		"0": "minecraft:block/stripped_mahogany_log",
-		"particle": "minecraft:block/stripped_mahogany_log"
+		"1": "byg:block/mahogany_log",
+		"0": "byg:block/stripped_mahogany_log",
+		"particle": "byg:block/stripped_mahogany_log"
 	}
 }

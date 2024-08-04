@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "mcwfurnituresbop:block/chair/stripped_mahogany_striped_chair", "y": 180  },
+        "facing=south": { "model": "mcwfurnituresbop:block/chair/stripped_mahogany_striped_chair", "y": 270 },
+        "facing=west": { "model": "mcwfurnituresbop:block/chair/stripped_mahogany_striped_chair" },
+        "facing=north": { "model": "mcwfurnituresbop:block/chair/stripped_mahogany_striped_chair", "y": 90  }
+    }
+}

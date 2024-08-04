@@ -1,9 +1,9 @@
 {
 	"parent": "mcwfurnitures:block/parent/double_wardrobe_base",
 	"textures": {
-		"0": "minecraft:block/stripped_ebony_log",
-		"1": "minecraft:block/ebony_log",
+		"0": "byg:block/stripped_ebony_log",
+		"1": "byg:block/ebony_log",
 		"2": "minecraft:block/iron_block",
-		"particle": "minecraft:block/stripped_ebony_log"
+		"particle": "byg:block/stripped_ebony_log"
 	}
 }

@@ -1,8 +1,8 @@
 {
 	"parent": "mcwfurnitures:block/parent/modern_wardrobe_top",
 	"textures": {
-		"0": "minecraft:block/stripped_redwood_log",
-		"1": "minecraft:block/redwood_log",
-		"particle": "minecraft:block/stripped_redwood_log"
+		"0": "byg:block/stripped_redwood_log",
+		"1": "byg:block/redwood_log",
+		"particle": "byg:block/stripped_redwood_log"
 	}
 }

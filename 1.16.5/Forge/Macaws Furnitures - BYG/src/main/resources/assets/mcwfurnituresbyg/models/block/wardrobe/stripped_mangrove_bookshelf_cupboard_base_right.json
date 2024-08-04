@@ -3,8 +3,8 @@
 	"textures": {
 		"2": "minecraft:block/iron_block",
 		"3": "minecraft:block/bookshelf",
-		"1": "minecraft:block/mangrove_log",
-		"0": "minecraft:block/stripped_mangrove_log",
-		"particle": "minecraft:block/stripped_mangrove_log"
+		"1": "byg:block/mangrove_log",
+		"0": "byg:block/stripped_mangrove_log",
+		"particle": "byg:block/stripped_mangrove_log"
 	}
 }

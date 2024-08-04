@@ -1,24 +1,6 @@
 {
-    "variants": {                   
-
-        "north=false,east=false,west=false,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "uvlock": true},
-		"north=true,east=false,west=false,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "y": 90, "uvlock": true},
-		"north=false,east=true,west=true,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "uvlock": true},
-		"north=true,east=true,west=true,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "uvlock": true},
-
-		"north=true,east=true,west=false,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "y": 90, "uvlock": true},
-		"north=false,east=true,west=true,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "y": 180, "uvlock": true},
-		"north=true,east=false,west=true,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "y": 270, "uvlock": true},
-		"north=true,east=true,west=true,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "uvlock": true},
-		
-		"north=true,east=false,west=true,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 90, "uvlock": true},
-		"north=true,east=true,west=false,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 180, "uvlock": true},
-		"north=false,east=true,west=false,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 270, "uvlock": true},
-		"north=false,east=false,west=true,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "uvlock": true},
-		
-        "north=true,east=false,west=false,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 90, "uvlock": true},
-		"north=false,east=true,west=false,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 180, "uvlock": true},
-		"north=false,east=false,west=false,south=true":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "y": 270, "uvlock": true},
-		"north=false,east=false,west=true,south=false":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "uvlock": true}
+    "variants": {                 
+        "connection=with_leg":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table", "uvlock": true},
+		"connection=center":  { "model": "mcwfurnituresbyg:block/table/ether_coffee_table_middle", "uvlock": true}
     }
 }
