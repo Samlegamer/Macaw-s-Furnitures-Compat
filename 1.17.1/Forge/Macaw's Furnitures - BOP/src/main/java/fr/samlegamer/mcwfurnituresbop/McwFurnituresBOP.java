@@ -31,20 +31,31 @@ public class McwFurnituresBOP
 		MFurniBOPBlocksRegistry.BLOCKS_REGISTRY.register(bus);
 		log.info("Macaw's Furnitures - Biome O' Plenty : Is Charged");
 	}
-	
+
 	private void ClientSetup(FMLClientSetupEvent event)
 	{
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.cherry_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_cherry_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.dead_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_dead_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.fir_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_fir_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.hellbark_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_hellbark_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.jacaranda_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_jacaranda_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.magic_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_magic_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.mahogany_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_mahogany_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.palm_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_palm_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.redwood_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_redwood_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.umbran_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_umbran_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.willow_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBOPBlocksRegistry.stripped_willow_glass_table.get(), RenderType.translucent());
 	}
 	
 	public static class TabsMRBOP extends CreativeModeTab

@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/double_wardrobe",
-	"textures": {
-		"1": "biomesoplenty:block/stripped_hellbark_log",
-		"4": "biomesoplenty:block/hellbark_log",
-		"2_1": "minecraft:block/iron_block"
-	}
-}
