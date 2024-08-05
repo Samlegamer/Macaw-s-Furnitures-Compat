@@ -39,35 +39,63 @@ public class McwFurnituresBYG
 	private void ClientSetup(FMLClientSetupEvent event)
 	{
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.aspen_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_aspen_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.baobab_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_baobab_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.blue_enchanted_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_blue_enchanted_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.cherry_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_cherry_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.cika_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_cika_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.cypress_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_cypress_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.ebony_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_ebony_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.ether_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_ether_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.fir_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_fir_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.green_enchanted_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_green_enchanted_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.holly_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_holly_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.jacaranda_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_jacaranda_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.lament_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_lament_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.mahogany_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_mahogany_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.white_mangrove_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_white_mangrove_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.maple_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_maple_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.nightshade_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_nightshade_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.palm_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_palm_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.pine_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_pine_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.rainbow_eucalyptus_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.redwood_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_redwood_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.skyris_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_skyris_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.willow_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_willow_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.witch_hazel_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_witch_hazel_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.zelkova_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_zelkova_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.bulbis_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_bulbis_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.imparius_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_imparius_glass_table.get(), RenderType.translucent());
 		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.sythian_glass_table.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer((Block)MFurniBYGBlocksRegistry.stripped_sythian_glass_table.get(), RenderType.translucent());
 	}
-
+	
 	private void CreateTab(CreativeModeTabEvent.Register event)
     {
 		MFURNI_BYG = event.registerCreativeModeTab(new ResourceLocation("mcwfurnituresbyg", "tab_mfurnibyg"), builder -> builder
@@ -80,1517 +108,1629 @@ public class McwFurnituresBYG
     	 if (event.getTab() == MFURNI_BYG)
     	 {
     		 event.accept(MFurniBYGBlocksRegistry.aspen_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.aspen_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.aspen_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.aspen_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.aspen_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.aspen_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_aspen_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.baobab_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.baobab_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.baobab_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.baobab_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.baobab_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.baobab_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_baobab_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.blue_enchanted_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_blue_enchanted_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.cherry_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.cherry_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cherry_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cherry_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cherry_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cherry_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cherry_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.cika_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.cika_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cika_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cika_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cika_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cika_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cika_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.cypress_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.cypress_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.cypress_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cypress_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cypress_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.cypress_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_cypress_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.ebony_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.ebony_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ebony_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ebony_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ebony_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ebony_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ebony_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.ether_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.ether_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.ether_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ether_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ether_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.ether_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_ether_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.fir_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.fir_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.fir_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.fir_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.fir_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.fir_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_fir_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.green_enchanted_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_green_enchanted_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.holly_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.holly_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.holly_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.holly_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.holly_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.holly_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_holly_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.jacaranda_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.jacaranda_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.jacaranda_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.jacaranda_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.jacaranda_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_jacaranda_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.lament_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.lament_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.lament_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.lament_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.lament_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.lament_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_lament_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.mahogany_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.mahogany_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.mahogany_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.mahogany_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.mahogany_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_mahogany_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.white_mangrove_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_white_mangrove_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.maple_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.maple_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.maple_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.maple_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.maple_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.maple_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_maple_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.nightshade_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.nightshade_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.nightshade_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.nightshade_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.nightshade_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_nightshade_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.palm_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.palm_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.palm_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.palm_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.palm_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.palm_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_palm_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.pine_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.pine_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.pine_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.pine_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.pine_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.pine_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_pine_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.rainbow_eucalyptus_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_rainbow_eucalyptus_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.redwood_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.redwood_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.redwood_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.redwood_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.redwood_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.redwood_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_redwood_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.skyris_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.skyris_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.skyris_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.skyris_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.skyris_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.skyris_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_skyris_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.willow_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.willow_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.willow_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.willow_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.willow_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.willow_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_willow_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.witch_hazel_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_witch_hazel_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.zelkova_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.zelkova_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.zelkova_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.zelkova_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.zelkova_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_zelkova_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.bulbis_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.bulbis_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.bulbis_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.bulbis_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.bulbis_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_bulbis_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.imparius_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.imparius_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.imparius_cupboard_counter.get());
-
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.imparius_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.imparius_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.imparius_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_imparius_glass_kitchen_cabinet.get());
     		 event.accept(MFurniBYGBlocksRegistry.sythian_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_modern_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_double_wardrobe.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_bookshelf.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_bookshelf_cupboard.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_double_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_lower_bookshelf_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_large_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_lower_triple_drawer.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_triple_drawer.get());
-
-    		 event.accept(MFurniBYGBlocksRegistry.sythian_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_covered_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_modern_desk.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_end_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_coffee_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_glass_table.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_modern_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_striped_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_stool_chair.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_double_drawer_counter.get());
-
     		 event.accept(MFurniBYGBlocksRegistry.sythian_cupboard_counter.get());
-    		 //Finish
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_modern_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_double_wardrobe.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_bookshelf.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_bookshelf_cupboard.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_double_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_lower_bookshelf_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_large_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_lower_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_triple_drawer.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_covered_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_modern_desk.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_end_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_coffee_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_glass_table.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_modern_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_striped_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_stool_chair.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_double_drawer_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_cupboard_counter.get());
+    		 event.accept(MFurniBYGBlocksRegistry.sythian_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.sythian_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.sythian_glass_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_double_kitchen_cabinet.get());
+    		 event.accept(MFurniBYGBlocksRegistry.stripped_sythian_glass_kitchen_cabinet.get());
     	 }
     }
 }

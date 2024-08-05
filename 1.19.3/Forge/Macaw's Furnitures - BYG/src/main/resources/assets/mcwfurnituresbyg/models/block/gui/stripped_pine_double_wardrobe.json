@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/double_wardrobe",
-	"textures": {
-		"1": "byg:block/pine/stripped_log",
-		"4": "byg:block/pine/log",
-		"2_1": "minecraft:block/iron_block"
-	}
-}

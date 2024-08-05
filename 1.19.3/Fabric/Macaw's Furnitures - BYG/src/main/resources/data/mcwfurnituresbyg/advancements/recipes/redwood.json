@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:redwood_wardrobe",
+	  "mcwfurnituresbyg:redwood_modern_wardrobe",
+	  "mcwfurnituresbyg:redwood_double_wardrobe",
+	  "mcwfurnituresbyg:redwood_bookshelf_cupboard",
+	  "mcwfurnituresbyg:redwood_bookshelf",
+	  "mcwfurnituresbyg:redwood_drawer",
+	  "mcwfurnituresbyg:redwood_double_drawer",
+	  "mcwfurnituresbyg:redwood_bookshelf_drawer",
+	  "mcwfurnituresbyg:redwood_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:redwood_large_drawer",
+	  "mcwfurnituresbyg:redwood_lower_triple_drawer",
+	  "mcwfurnituresbyg:redwood_triple_drawer",
+	  "mcwfurnituresbyg:redwood_desk",
+	  "mcwfurnituresbyg:redwood_covered_desk",
+	  "mcwfurnituresbyg:redwood_modern_desk",
+	  "mcwfurnituresbyg:redwood_table",
+	  "mcwfurnituresbyg:redwood_end_table",
+	  "mcwfurnituresbyg:redwood_coffee_table",
+	  "mcwfurnituresbyg:redwood_glass_table",
+	  "mcwfurnituresbyg:redwood_chair",
+	  "mcwfurnituresbyg:redwood_modern_chair",
+	  "mcwfurnituresbyg:redwood_striped_chair",
+	  "mcwfurnituresbyg:redwood_stool_chair",
+	  "mcwfurnituresbyg:redwood_counter",
+	  "mcwfurnituresbyg:redwood_drawer_counter",
+	  "mcwfurnituresbyg:redwood_double_drawer_counter",
+	  "mcwfurnituresbyg:redwood_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_redwood_wardrobe",
+	  "mcwfurnituresbyg:stripped_redwood_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_redwood_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_redwood_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_redwood_bookshelf",
+	  "mcwfurnituresbyg:stripped_redwood_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_double_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_large_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_triple_drawer",
+	  "mcwfurnituresbyg:stripped_redwood_desk",
+	  "mcwfurnituresbyg:stripped_redwood_covered_desk",
+	  "mcwfurnituresbyg:stripped_redwood_modern_desk",
+	  "mcwfurnituresbyg:stripped_redwood_table",
+	  "mcwfurnituresbyg:stripped_redwood_end_table",
+	  "mcwfurnituresbyg:stripped_redwood_coffee_table",
+	  "mcwfurnituresbyg:stripped_redwood_glass_table",
+	  "mcwfurnituresbyg:stripped_redwood_chair",
+	  "mcwfurnituresbyg:stripped_redwood_modern_chair",
+	  "mcwfurnituresbyg:stripped_redwood_striped_chair",
+	  "mcwfurnituresbyg:stripped_redwood_stool_chair",
+	  "mcwfurnituresbyg:stripped_redwood_counter",
+	  "mcwfurnituresbyg:stripped_redwood_drawer_counter",
+	  "mcwfurnituresbyg:stripped_redwood_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_redwood_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "byg:redwood_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:redwood_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "byg:nightshade_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:stripped_nightshade_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:stripped_nightshade_cupboard_counter",
+        "count": 1
+    }
+}
+
+

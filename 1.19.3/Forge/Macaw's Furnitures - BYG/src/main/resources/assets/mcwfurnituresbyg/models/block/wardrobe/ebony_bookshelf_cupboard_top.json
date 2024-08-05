@@ -1,7 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/bookshelf_cupboard_top",
-	"textures": {
-		"3": "minecraft:block/bookshelf",
-		"4": "byg:block/ebony/stripped_log"
-	}
-}

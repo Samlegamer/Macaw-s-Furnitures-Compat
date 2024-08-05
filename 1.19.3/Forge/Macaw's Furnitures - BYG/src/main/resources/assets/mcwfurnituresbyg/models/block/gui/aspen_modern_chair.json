@@ -1,7 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/modern_chair",
-	"textures": {
-		"0": "byg:block/aspen/log",
-		"3": "byg:block/aspen/stripped_log"
-	}
-}
