@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:lament_wardrobe",
+	  "mcwfurnituresbyg:lament_modern_wardrobe",
+	  "mcwfurnituresbyg:lament_double_wardrobe",
+	  "mcwfurnituresbyg:lament_bookshelf_cupboard",
+	  "mcwfurnituresbyg:lament_bookshelf",
+	  "mcwfurnituresbyg:lament_drawer",
+	  "mcwfurnituresbyg:lament_double_drawer",
+	  "mcwfurnituresbyg:lament_bookshelf_drawer",
+	  "mcwfurnituresbyg:lament_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:lament_large_drawer",
+	  "mcwfurnituresbyg:lament_lower_triple_drawer",
+	  "mcwfurnituresbyg:lament_triple_drawer",
+	  "mcwfurnituresbyg:lament_desk",
+	  "mcwfurnituresbyg:lament_covered_desk",
+	  "mcwfurnituresbyg:lament_modern_desk",
+	  "mcwfurnituresbyg:lament_table",
+	  "mcwfurnituresbyg:lament_end_table",
+	  "mcwfurnituresbyg:lament_coffee_table",
+	  "mcwfurnituresbyg:lament_glass_table",
+	  "mcwfurnituresbyg:lament_chair",
+	  "mcwfurnituresbyg:lament_modern_chair",
+	  "mcwfurnituresbyg:lament_striped_chair",
+	  "mcwfurnituresbyg:lament_stool_chair",
+	  "mcwfurnituresbyg:lament_counter",
+	  "mcwfurnituresbyg:lament_drawer_counter",
+	  "mcwfurnituresbyg:lament_double_drawer_counter",
+	  "mcwfurnituresbyg:lament_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_lament_wardrobe",
+	  "mcwfurnituresbyg:stripped_lament_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_lament_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_lament_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_lament_bookshelf",
+	  "mcwfurnituresbyg:stripped_lament_drawer",
+	  "mcwfurnituresbyg:stripped_lament_double_drawer",
+	  "mcwfurnituresbyg:stripped_lament_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_lament_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_lament_large_drawer",
+	  "mcwfurnituresbyg:stripped_lament_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_lament_triple_drawer",
+	  "mcwfurnituresbyg:stripped_lament_desk",
+	  "mcwfurnituresbyg:stripped_lament_covered_desk",
+	  "mcwfurnituresbyg:stripped_lament_modern_desk",
+	  "mcwfurnituresbyg:stripped_lament_table",
+	  "mcwfurnituresbyg:stripped_lament_end_table",
+	  "mcwfurnituresbyg:stripped_lament_coffee_table",
+	  "mcwfurnituresbyg:stripped_lament_glass_table",
+	  "mcwfurnituresbyg:stripped_lament_chair",
+	  "mcwfurnituresbyg:stripped_lament_modern_chair",
+	  "mcwfurnituresbyg:stripped_lament_striped_chair",
+	  "mcwfurnituresbyg:stripped_lament_stool_chair",
+	  "mcwfurnituresbyg:stripped_lament_counter",
+	  "mcwfurnituresbyg:stripped_lament_drawer_counter",
+	  "mcwfurnituresbyg:stripped_lament_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_lament_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "byg:lament_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:lament_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

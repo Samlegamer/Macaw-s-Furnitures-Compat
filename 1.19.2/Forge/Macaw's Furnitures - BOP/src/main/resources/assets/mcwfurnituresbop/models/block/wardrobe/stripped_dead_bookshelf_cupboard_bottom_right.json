@@ -3,8 +3,8 @@
 	"textures": {
 		"2": "minecraft:block/iron_block",
 		"3": "minecraft:block/bookshelf",
-		"1": "minecraft:block/dead_log",
-		"0": "minecraft:block/stripped_dead_log",
-		"particle": "minecraft:block/stripped_dead_log"
+		"1": "biomesoplenty:block/dead_log",
+		"0": "biomesoplenty:block/stripped_dead_log",
+		"particle": "biomesoplenty:block/stripped_dead_log"
 	}
 }

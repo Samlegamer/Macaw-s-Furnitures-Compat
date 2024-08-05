@@ -1,9 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/drawer",
-	"textures": {
-		"0": "byg:block/skyris/log",
-		"1": "byg:block/skyris/stripped_log",
-		"particle": "byg:block/skyris/stripped_log",
-		"1_2": "minecraft:block/iron_block"
-	}
-}

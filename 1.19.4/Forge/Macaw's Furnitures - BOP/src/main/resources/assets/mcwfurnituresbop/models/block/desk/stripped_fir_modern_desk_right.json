@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/modern_desk_right",
-	"textures": {
-		"1": "minecraft:block/fir_log",
-		"0": "minecraft:block/stripped_fir_log",
-		"particle": "minecraft:block/stripped_fir_log"
-	}
-}

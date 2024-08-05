@@ -2,6 +2,7 @@
 	"parent": "mcwfurnitures:block/parent/end_table_middle_three",
 	"textures": {
 		"1": "byg:block/zelkova/log",
+		"2": "byg:block/zelkova/stripped_log",
 		"particle": "byg:block/zelkova/log"
 	}
 }

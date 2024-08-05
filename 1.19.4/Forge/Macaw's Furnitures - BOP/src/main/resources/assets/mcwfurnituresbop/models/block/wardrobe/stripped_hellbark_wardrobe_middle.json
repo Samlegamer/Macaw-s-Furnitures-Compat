@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/wardrobe_middle",
-	"textures": {
-		"0": "minecraft:block/stripped_hellbark_log",
-		"1": "minecraft:block/hellbark_log",
-		"particle": "minecraft:block/stripped_hellbark_log"
-	}
-}

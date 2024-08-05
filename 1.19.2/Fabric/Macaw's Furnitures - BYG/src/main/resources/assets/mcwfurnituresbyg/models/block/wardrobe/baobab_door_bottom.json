@@ -1,7 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/door_bottom",
-	"textures": {
-		"2": "byg:block/baobab/stripped_log",
-		"particle": "byg:block/baobab/stripped_log"
-	}
-}

@@ -1,6 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/gui/parent/desk",
-	"textures": {
-		"2": "byg:block/zelkova/stripped_log"
-	}
-}

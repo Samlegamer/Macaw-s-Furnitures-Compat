@@ -1,7 +1,7 @@
 {
 	"parent": "mcwfurnitures:block/parent/end_table_center",
 	"textures": {
-		"1": "biomesoplenty:block/stripped_palm_log",
-		"particle": "biomesoplenty:block/stripped_palm_log"
+		"1": "biomesoplenty:block/palm_log",
+		"particle": "biomesoplenty:block/palm_log"
 	}
 }

@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/double_wardrobe_middle",
-	"textures": {
-		"0": "minecraft:block/stripped_magic_log",
-		"1": "minecraft:block/magic_log",
-		"particle": "minecraft:block/stripped_magic_log"
-	}
-}

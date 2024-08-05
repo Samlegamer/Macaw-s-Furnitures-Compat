@@ -2,8 +2,8 @@
 	"parent": "mcwfurnitures:block/parent/bookshelf_middle",
 	"textures": {
 		"2": "minecraft:block/bookshelf",
-		"1": "minecraft:block/log",
-		"0": "minecraft:block/stripped_log",
-		"particle": "minecraft:block/stripped_log"
+		"1": "byg:block/jacaranda/log",
+		"0": "byg:block/jacaranda/stripped_log",
+		"particle": "byg:block/jacaranda/stripped_log"
 	}
 }
