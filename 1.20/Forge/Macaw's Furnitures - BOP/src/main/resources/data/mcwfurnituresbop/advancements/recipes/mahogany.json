@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:mahogany_wardrobe",
+	  "mcwfurnituresbop:mahogany_modern_wardrobe",
+	  "mcwfurnituresbop:mahogany_double_wardrobe",
+	  "mcwfurnituresbop:mahogany_bookshelf_cupboard",
+	  "mcwfurnituresbop:mahogany_bookshelf",
+	  "mcwfurnituresbop:mahogany_drawer",
+	  "mcwfurnituresbop:mahogany_double_drawer",
+	  "mcwfurnituresbop:mahogany_bookshelf_drawer",
+	  "mcwfurnituresbop:mahogany_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:mahogany_large_drawer",
+	  "mcwfurnituresbop:mahogany_lower_triple_drawer",
+	  "mcwfurnituresbop:mahogany_triple_drawer",
+	  "mcwfurnituresbop:mahogany_desk",
+	  "mcwfurnituresbop:mahogany_covered_desk",
+	  "mcwfurnituresbop:mahogany_modern_desk",
+	  "mcwfurnituresbop:mahogany_table",
+	  "mcwfurnituresbop:mahogany_end_table",
+	  "mcwfurnituresbop:mahogany_coffee_table",
+	  "mcwfurnituresbop:mahogany_glass_table",
+	  "mcwfurnituresbop:mahogany_chair",
+	  "mcwfurnituresbop:mahogany_modern_chair",
+	  "mcwfurnituresbop:mahogany_striped_chair",
+	  "mcwfurnituresbop:mahogany_stool_chair",
+	  "mcwfurnituresbop:mahogany_counter",
+	  "mcwfurnituresbop:mahogany_drawer_counter",
+	  "mcwfurnituresbop:mahogany_double_drawer_counter",
+	  "mcwfurnituresbop:mahogany_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_mahogany_wardrobe",
+	  "mcwfurnituresbop:stripped_mahogany_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_mahogany_double_wardrobe",
+	  "mcwfurnituresbop:stripped_mahogany_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_mahogany_bookshelf",
+	  "mcwfurnituresbop:stripped_mahogany_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_double_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_large_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_triple_drawer",
+	  "mcwfurnituresbop:stripped_mahogany_desk",
+	  "mcwfurnituresbop:stripped_mahogany_covered_desk",
+	  "mcwfurnituresbop:stripped_mahogany_modern_desk",
+	  "mcwfurnituresbop:stripped_mahogany_table",
+	  "mcwfurnituresbop:stripped_mahogany_end_table",
+	  "mcwfurnituresbop:stripped_mahogany_coffee_table",
+	  "mcwfurnituresbop:stripped_mahogany_glass_table",
+	  "mcwfurnituresbop:stripped_mahogany_chair",
+	  "mcwfurnituresbop:stripped_mahogany_modern_chair",
+	  "mcwfurnituresbop:stripped_mahogany_striped_chair",
+	  "mcwfurnituresbop:stripped_mahogany_stool_chair",
+	  "mcwfurnituresbop:stripped_mahogany_counter",
+	  "mcwfurnituresbop:stripped_mahogany_drawer_counter",
+	  "mcwfurnituresbop:stripped_mahogany_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_mahogany_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:mahogany_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:mahogany_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

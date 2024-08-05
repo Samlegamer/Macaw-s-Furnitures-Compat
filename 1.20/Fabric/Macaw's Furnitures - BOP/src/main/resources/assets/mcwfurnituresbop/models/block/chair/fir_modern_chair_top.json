@@ -1,7 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/modern_chair_top",
-	"textures": {
-		"3": "biomesoplenty:block/stripped_fir_log",
-		"particle": "biomesoplenty:block/fir_log"
-	}
-}

@@ -1,9 +1,0 @@
-
-{
-    "variants": {
-        "facing=east":  { "model": "mcwfurnituresbop:block/counter/mahogany_drawer_counter", "y": 270 },
-        "facing=west":  { "model": "mcwfurnituresbop:block/counter/mahogany_drawer_counter", "y": 90 },
-        "facing=south": { "model": "mcwfurnituresbop:block/counter/mahogany_drawer_counter", "y": 0 },
-        "facing=north": { "model": "mcwfurnituresbop:block/counter/mahogany_drawer_counter", "y": 180 }
-    }
-}

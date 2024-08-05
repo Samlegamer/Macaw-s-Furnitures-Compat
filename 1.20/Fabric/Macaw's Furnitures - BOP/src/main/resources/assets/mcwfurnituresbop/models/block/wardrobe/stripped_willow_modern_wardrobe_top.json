@@ -1,8 +1,0 @@
-{
-	"parent": "mcwfurnitures:block/parent/modern_wardrobe_top",
-	"textures": {
-		"0": "minecraft:block/stripped_willow_log",
-		"1": "minecraft:block/willow_log",
-		"particle": "minecraft:block/stripped_willow_log"
-	}
-}
