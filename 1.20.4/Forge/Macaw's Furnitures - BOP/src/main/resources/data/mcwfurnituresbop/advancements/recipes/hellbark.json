@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:hellbark_wardrobe",
+	  "mcwfurnituresbop:hellbark_modern_wardrobe",
+	  "mcwfurnituresbop:hellbark_double_wardrobe",
+	  "mcwfurnituresbop:hellbark_bookshelf_cupboard",
+	  "mcwfurnituresbop:hellbark_bookshelf",
+	  "mcwfurnituresbop:hellbark_drawer",
+	  "mcwfurnituresbop:hellbark_double_drawer",
+	  "mcwfurnituresbop:hellbark_bookshelf_drawer",
+	  "mcwfurnituresbop:hellbark_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:hellbark_large_drawer",
+	  "mcwfurnituresbop:hellbark_lower_triple_drawer",
+	  "mcwfurnituresbop:hellbark_triple_drawer",
+	  "mcwfurnituresbop:hellbark_desk",
+	  "mcwfurnituresbop:hellbark_covered_desk",
+	  "mcwfurnituresbop:hellbark_modern_desk",
+	  "mcwfurnituresbop:hellbark_table",
+	  "mcwfurnituresbop:hellbark_end_table",
+	  "mcwfurnituresbop:hellbark_coffee_table",
+	  "mcwfurnituresbop:hellbark_glass_table",
+	  "mcwfurnituresbop:hellbark_chair",
+	  "mcwfurnituresbop:hellbark_modern_chair",
+	  "mcwfurnituresbop:hellbark_striped_chair",
+	  "mcwfurnituresbop:hellbark_stool_chair",
+	  "mcwfurnituresbop:hellbark_counter",
+	  "mcwfurnituresbop:hellbark_drawer_counter",
+	  "mcwfurnituresbop:hellbark_double_drawer_counter",
+	  "mcwfurnituresbop:hellbark_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_hellbark_wardrobe",
+	  "mcwfurnituresbop:stripped_hellbark_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_hellbark_double_wardrobe",
+	  "mcwfurnituresbop:stripped_hellbark_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_hellbark_bookshelf",
+	  "mcwfurnituresbop:stripped_hellbark_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_double_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_large_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_triple_drawer",
+	  "mcwfurnituresbop:stripped_hellbark_desk",
+	  "mcwfurnituresbop:stripped_hellbark_covered_desk",
+	  "mcwfurnituresbop:stripped_hellbark_modern_desk",
+	  "mcwfurnituresbop:stripped_hellbark_table",
+	  "mcwfurnituresbop:stripped_hellbark_end_table",
+	  "mcwfurnituresbop:stripped_hellbark_coffee_table",
+	  "mcwfurnituresbop:stripped_hellbark_glass_table",
+	  "mcwfurnituresbop:stripped_hellbark_chair",
+	  "mcwfurnituresbop:stripped_hellbark_modern_chair",
+	  "mcwfurnituresbop:stripped_hellbark_striped_chair",
+	  "mcwfurnituresbop:stripped_hellbark_stool_chair",
+	  "mcwfurnituresbop:stripped_hellbark_counter",
+	  "mcwfurnituresbop:stripped_hellbark_drawer_counter",
+	  "mcwfurnituresbop:stripped_hellbark_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_hellbark_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:hellbark_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:hellbark_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:palm_wardrobe",
+	  "mcwfurnituresbop:palm_modern_wardrobe",
+	  "mcwfurnituresbop:palm_double_wardrobe",
+	  "mcwfurnituresbop:palm_bookshelf_cupboard",
+	  "mcwfurnituresbop:palm_bookshelf",
+	  "mcwfurnituresbop:palm_drawer",
+	  "mcwfurnituresbop:palm_double_drawer",
+	  "mcwfurnituresbop:palm_bookshelf_drawer",
+	  "mcwfurnituresbop:palm_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:palm_large_drawer",
+	  "mcwfurnituresbop:palm_lower_triple_drawer",
+	  "mcwfurnituresbop:palm_triple_drawer",
+	  "mcwfurnituresbop:palm_desk",
+	  "mcwfurnituresbop:palm_covered_desk",
+	  "mcwfurnituresbop:palm_modern_desk",
+	  "mcwfurnituresbop:palm_table",
+	  "mcwfurnituresbop:palm_end_table",
+	  "mcwfurnituresbop:palm_coffee_table",
+	  "mcwfurnituresbop:palm_glass_table",
+	  "mcwfurnituresbop:palm_chair",
+	  "mcwfurnituresbop:palm_modern_chair",
+	  "mcwfurnituresbop:palm_striped_chair",
+	  "mcwfurnituresbop:palm_stool_chair",
+	  "mcwfurnituresbop:palm_counter",
+	  "mcwfurnituresbop:palm_drawer_counter",
+	  "mcwfurnituresbop:palm_double_drawer_counter",
+	  "mcwfurnituresbop:palm_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_palm_wardrobe",
+	  "mcwfurnituresbop:stripped_palm_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_palm_double_wardrobe",
+	  "mcwfurnituresbop:stripped_palm_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_palm_bookshelf",
+	  "mcwfurnituresbop:stripped_palm_drawer",
+	  "mcwfurnituresbop:stripped_palm_double_drawer",
+	  "mcwfurnituresbop:stripped_palm_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_palm_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_palm_large_drawer",
+	  "mcwfurnituresbop:stripped_palm_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_palm_triple_drawer",
+	  "mcwfurnituresbop:stripped_palm_desk",
+	  "mcwfurnituresbop:stripped_palm_covered_desk",
+	  "mcwfurnituresbop:stripped_palm_modern_desk",
+	  "mcwfurnituresbop:stripped_palm_table",
+	  "mcwfurnituresbop:stripped_palm_end_table",
+	  "mcwfurnituresbop:stripped_palm_coffee_table",
+	  "mcwfurnituresbop:stripped_palm_glass_table",
+	  "mcwfurnituresbop:stripped_palm_chair",
+	  "mcwfurnituresbop:stripped_palm_modern_chair",
+	  "mcwfurnituresbop:stripped_palm_striped_chair",
+	  "mcwfurnituresbop:stripped_palm_stool_chair",
+	  "mcwfurnituresbop:stripped_palm_counter",
+	  "mcwfurnituresbop:stripped_palm_drawer_counter",
+	  "mcwfurnituresbop:stripped_palm_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_palm_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:palm_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:palm_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

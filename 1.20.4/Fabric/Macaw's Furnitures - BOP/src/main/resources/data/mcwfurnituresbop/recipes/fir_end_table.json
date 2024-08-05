@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbop:fir_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomesoplenty:fir_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbop:fir_end_table",
+        "count": 1
+    }
+}
+
+
