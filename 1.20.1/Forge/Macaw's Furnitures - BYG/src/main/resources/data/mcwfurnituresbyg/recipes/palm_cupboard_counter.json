@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomeswevegone:palm_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:palm_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:palm_cupboard_counter",
+        "count": 1
+    }
+}
+
+

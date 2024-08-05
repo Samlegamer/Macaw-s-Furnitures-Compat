@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "drawer_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomeswevegone:skyris_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:skyris_drawer"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:skyris_drawer_counter",
+        "count": 1
+    }
+}
+
+

@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:maple_wardrobe",
+	  "mcwfurnituresbyg:maple_modern_wardrobe",
+	  "mcwfurnituresbyg:maple_double_wardrobe",
+	  "mcwfurnituresbyg:maple_bookshelf_cupboard",
+	  "mcwfurnituresbyg:maple_bookshelf",
+	  "mcwfurnituresbyg:maple_drawer",
+	  "mcwfurnituresbyg:maple_double_drawer",
+	  "mcwfurnituresbyg:maple_bookshelf_drawer",
+	  "mcwfurnituresbyg:maple_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:maple_large_drawer",
+	  "mcwfurnituresbyg:maple_lower_triple_drawer",
+	  "mcwfurnituresbyg:maple_triple_drawer",
+	  "mcwfurnituresbyg:maple_desk",
+	  "mcwfurnituresbyg:maple_covered_desk",
+	  "mcwfurnituresbyg:maple_modern_desk",
+	  "mcwfurnituresbyg:maple_table",
+	  "mcwfurnituresbyg:maple_end_table",
+	  "mcwfurnituresbyg:maple_coffee_table",
+	  "mcwfurnituresbyg:maple_glass_table",
+	  "mcwfurnituresbyg:maple_chair",
+	  "mcwfurnituresbyg:maple_modern_chair",
+	  "mcwfurnituresbyg:maple_striped_chair",
+	  "mcwfurnituresbyg:maple_stool_chair",
+	  "mcwfurnituresbyg:maple_counter",
+	  "mcwfurnituresbyg:maple_drawer_counter",
+	  "mcwfurnituresbyg:maple_double_drawer_counter",
+	  "mcwfurnituresbyg:maple_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_maple_wardrobe",
+	  "mcwfurnituresbyg:stripped_maple_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_maple_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_maple_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_maple_bookshelf",
+	  "mcwfurnituresbyg:stripped_maple_drawer",
+	  "mcwfurnituresbyg:stripped_maple_double_drawer",
+	  "mcwfurnituresbyg:stripped_maple_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_maple_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_maple_large_drawer",
+	  "mcwfurnituresbyg:stripped_maple_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_maple_triple_drawer",
+	  "mcwfurnituresbyg:stripped_maple_desk",
+	  "mcwfurnituresbyg:stripped_maple_covered_desk",
+	  "mcwfurnituresbyg:stripped_maple_modern_desk",
+	  "mcwfurnituresbyg:stripped_maple_table",
+	  "mcwfurnituresbyg:stripped_maple_end_table",
+	  "mcwfurnituresbyg:stripped_maple_coffee_table",
+	  "mcwfurnituresbyg:stripped_maple_glass_table",
+	  "mcwfurnituresbyg:stripped_maple_chair",
+	  "mcwfurnituresbyg:stripped_maple_modern_chair",
+	  "mcwfurnituresbyg:stripped_maple_striped_chair",
+	  "mcwfurnituresbyg:stripped_maple_stool_chair",
+	  "mcwfurnituresbyg:stripped_maple_counter",
+	  "mcwfurnituresbyg:stripped_maple_drawer_counter",
+	  "mcwfurnituresbyg:stripped_maple_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_maple_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomeswevegone:maple_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:maple_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
