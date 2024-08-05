@@ -1,0 +1,16 @@
+package fr.samlegamer.mcwfurnituresbop.client;
+
+import fr.samlegamer.mcwfurnituresbop.block.MFurniBOPBlocksRegistry;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
+
+public class MFurniBOPClient implements ClientModInitializer
+{
+	@Override
+	public void onInitializeClient()
+	{
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
+				MFurniBOPBlocksRegistry.dead_glass_table, MFurniBOPBlocksRegistry.stripped_dead_glass_table, MFurniBOPBlocksRegistry.fir_glass_table, MFurniBOPBlocksRegistry.stripped_fir_glass_table, MFurniBOPBlocksRegistry.hellbark_glass_table, MFurniBOPBlocksRegistry.stripped_hellbark_glass_table, MFurniBOPBlocksRegistry.jacaranda_glass_table, MFurniBOPBlocksRegistry.stripped_jacaranda_glass_table, MFurniBOPBlocksRegistry.magic_glass_table, MFurniBOPBlocksRegistry.stripped_magic_glass_table, MFurniBOPBlocksRegistry.mahogany_glass_table, MFurniBOPBlocksRegistry.stripped_mahogany_glass_table, MFurniBOPBlocksRegistry.palm_glass_table, MFurniBOPBlocksRegistry.stripped_palm_glass_table, MFurniBOPBlocksRegistry.redwood_glass_table, MFurniBOPBlocksRegistry.stripped_redwood_glass_table, MFurniBOPBlocksRegistry.umbran_glass_table, MFurniBOPBlocksRegistry.stripped_umbran_glass_table, MFurniBOPBlocksRegistry.willow_glass_table, MFurniBOPBlocksRegistry.stripped_willow_glass_table, MFurniBOPBlocksRegistry.empyreal_glass_table, MFurniBOPBlocksRegistry.stripped_empyreal_glass_table);
+	}
+}

@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:umbran_wardrobe",
+	  "mcwfurnituresbop:umbran_modern_wardrobe",
+	  "mcwfurnituresbop:umbran_double_wardrobe",
+	  "mcwfurnituresbop:umbran_bookshelf_cupboard",
+	  "mcwfurnituresbop:umbran_bookshelf",
+	  "mcwfurnituresbop:umbran_drawer",
+	  "mcwfurnituresbop:umbran_double_drawer",
+	  "mcwfurnituresbop:umbran_bookshelf_drawer",
+	  "mcwfurnituresbop:umbran_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:umbran_large_drawer",
+	  "mcwfurnituresbop:umbran_lower_triple_drawer",
+	  "mcwfurnituresbop:umbran_triple_drawer",
+	  "mcwfurnituresbop:umbran_desk",
+	  "mcwfurnituresbop:umbran_covered_desk",
+	  "mcwfurnituresbop:umbran_modern_desk",
+	  "mcwfurnituresbop:umbran_table",
+	  "mcwfurnituresbop:umbran_end_table",
+	  "mcwfurnituresbop:umbran_coffee_table",
+	  "mcwfurnituresbop:umbran_glass_table",
+	  "mcwfurnituresbop:umbran_chair",
+	  "mcwfurnituresbop:umbran_modern_chair",
+	  "mcwfurnituresbop:umbran_striped_chair",
+	  "mcwfurnituresbop:umbran_stool_chair",
+	  "mcwfurnituresbop:umbran_counter",
+	  "mcwfurnituresbop:umbran_drawer_counter",
+	  "mcwfurnituresbop:umbran_double_drawer_counter",
+	  "mcwfurnituresbop:umbran_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_umbran_wardrobe",
+	  "mcwfurnituresbop:stripped_umbran_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_umbran_double_wardrobe",
+	  "mcwfurnituresbop:stripped_umbran_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_umbran_bookshelf",
+	  "mcwfurnituresbop:stripped_umbran_drawer",
+	  "mcwfurnituresbop:stripped_umbran_double_drawer",
+	  "mcwfurnituresbop:stripped_umbran_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_umbran_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_umbran_large_drawer",
+	  "mcwfurnituresbop:stripped_umbran_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_umbran_triple_drawer",
+	  "mcwfurnituresbop:stripped_umbran_desk",
+	  "mcwfurnituresbop:stripped_umbran_covered_desk",
+	  "mcwfurnituresbop:stripped_umbran_modern_desk",
+	  "mcwfurnituresbop:stripped_umbran_table",
+	  "mcwfurnituresbop:stripped_umbran_end_table",
+	  "mcwfurnituresbop:stripped_umbran_coffee_table",
+	  "mcwfurnituresbop:stripped_umbran_glass_table",
+	  "mcwfurnituresbop:stripped_umbran_chair",
+	  "mcwfurnituresbop:stripped_umbran_modern_chair",
+	  "mcwfurnituresbop:stripped_umbran_striped_chair",
+	  "mcwfurnituresbop:stripped_umbran_stool_chair",
+	  "mcwfurnituresbop:stripped_umbran_counter",
+	  "mcwfurnituresbop:stripped_umbran_drawer_counter",
+	  "mcwfurnituresbop:stripped_umbran_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_umbran_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:umbran_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:umbran_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
