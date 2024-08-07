@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:jacaranda_wardrobe",
+	  "mcwfurnituresbyg:jacaranda_modern_wardrobe",
+	  "mcwfurnituresbyg:jacaranda_double_wardrobe",
+	  "mcwfurnituresbyg:jacaranda_bookshelf_cupboard",
+	  "mcwfurnituresbyg:jacaranda_bookshelf",
+	  "mcwfurnituresbyg:jacaranda_drawer",
+	  "mcwfurnituresbyg:jacaranda_double_drawer",
+	  "mcwfurnituresbyg:jacaranda_bookshelf_drawer",
+	  "mcwfurnituresbyg:jacaranda_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:jacaranda_large_drawer",
+	  "mcwfurnituresbyg:jacaranda_lower_triple_drawer",
+	  "mcwfurnituresbyg:jacaranda_triple_drawer",
+	  "mcwfurnituresbyg:jacaranda_desk",
+	  "mcwfurnituresbyg:jacaranda_covered_desk",
+	  "mcwfurnituresbyg:jacaranda_modern_desk",
+	  "mcwfurnituresbyg:jacaranda_table",
+	  "mcwfurnituresbyg:jacaranda_end_table",
+	  "mcwfurnituresbyg:jacaranda_coffee_table",
+	  "mcwfurnituresbyg:jacaranda_glass_table",
+	  "mcwfurnituresbyg:jacaranda_chair",
+	  "mcwfurnituresbyg:jacaranda_modern_chair",
+	  "mcwfurnituresbyg:jacaranda_striped_chair",
+	  "mcwfurnituresbyg:jacaranda_stool_chair",
+	  "mcwfurnituresbyg:jacaranda_counter",
+	  "mcwfurnituresbyg:jacaranda_drawer_counter",
+	  "mcwfurnituresbyg:jacaranda_double_drawer_counter",
+	  "mcwfurnituresbyg:jacaranda_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_jacaranda_wardrobe",
+	  "mcwfurnituresbyg:stripped_jacaranda_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_jacaranda_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_jacaranda_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_jacaranda_bookshelf",
+	  "mcwfurnituresbyg:stripped_jacaranda_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_double_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_large_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_triple_drawer",
+	  "mcwfurnituresbyg:stripped_jacaranda_desk",
+	  "mcwfurnituresbyg:stripped_jacaranda_covered_desk",
+	  "mcwfurnituresbyg:stripped_jacaranda_modern_desk",
+	  "mcwfurnituresbyg:stripped_jacaranda_table",
+	  "mcwfurnituresbyg:stripped_jacaranda_end_table",
+	  "mcwfurnituresbyg:stripped_jacaranda_coffee_table",
+	  "mcwfurnituresbyg:stripped_jacaranda_glass_table",
+	  "mcwfurnituresbyg:stripped_jacaranda_chair",
+	  "mcwfurnituresbyg:stripped_jacaranda_modern_chair",
+	  "mcwfurnituresbyg:stripped_jacaranda_striped_chair",
+	  "mcwfurnituresbyg:stripped_jacaranda_stool_chair",
+	  "mcwfurnituresbyg:stripped_jacaranda_counter",
+	  "mcwfurnituresbyg:stripped_jacaranda_drawer_counter",
+	  "mcwfurnituresbyg:stripped_jacaranda_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_jacaranda_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomeswevegone:jacaranda_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:jacaranda_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

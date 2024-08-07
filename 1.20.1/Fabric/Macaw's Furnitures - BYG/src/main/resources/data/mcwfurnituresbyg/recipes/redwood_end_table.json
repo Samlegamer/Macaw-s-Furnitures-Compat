@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "end_table",
+    "pattern":
+    [
+        "A",
+        "B"                
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "mcwfurnituresbyg:redwood_table"
+        }, 
+		
+		
+        "B":
+        {
+            "item": "biomeswevegone:redwood_log"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:redwood_end_table",
+        "count": 1
+    }
+}
+
+

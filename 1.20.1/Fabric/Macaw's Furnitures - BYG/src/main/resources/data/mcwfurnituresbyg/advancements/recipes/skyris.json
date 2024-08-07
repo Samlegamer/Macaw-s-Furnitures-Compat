@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:skyris_wardrobe",
+	  "mcwfurnituresbyg:skyris_modern_wardrobe",
+	  "mcwfurnituresbyg:skyris_double_wardrobe",
+	  "mcwfurnituresbyg:skyris_bookshelf_cupboard",
+	  "mcwfurnituresbyg:skyris_bookshelf",
+	  "mcwfurnituresbyg:skyris_drawer",
+	  "mcwfurnituresbyg:skyris_double_drawer",
+	  "mcwfurnituresbyg:skyris_bookshelf_drawer",
+	  "mcwfurnituresbyg:skyris_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:skyris_large_drawer",
+	  "mcwfurnituresbyg:skyris_lower_triple_drawer",
+	  "mcwfurnituresbyg:skyris_triple_drawer",
+	  "mcwfurnituresbyg:skyris_desk",
+	  "mcwfurnituresbyg:skyris_covered_desk",
+	  "mcwfurnituresbyg:skyris_modern_desk",
+	  "mcwfurnituresbyg:skyris_table",
+	  "mcwfurnituresbyg:skyris_end_table",
+	  "mcwfurnituresbyg:skyris_coffee_table",
+	  "mcwfurnituresbyg:skyris_glass_table",
+	  "mcwfurnituresbyg:skyris_chair",
+	  "mcwfurnituresbyg:skyris_modern_chair",
+	  "mcwfurnituresbyg:skyris_striped_chair",
+	  "mcwfurnituresbyg:skyris_stool_chair",
+	  "mcwfurnituresbyg:skyris_counter",
+	  "mcwfurnituresbyg:skyris_drawer_counter",
+	  "mcwfurnituresbyg:skyris_double_drawer_counter",
+	  "mcwfurnituresbyg:skyris_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_skyris_wardrobe",
+	  "mcwfurnituresbyg:stripped_skyris_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_skyris_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_skyris_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_skyris_bookshelf",
+	  "mcwfurnituresbyg:stripped_skyris_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_double_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_large_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_triple_drawer",
+	  "mcwfurnituresbyg:stripped_skyris_desk",
+	  "mcwfurnituresbyg:stripped_skyris_covered_desk",
+	  "mcwfurnituresbyg:stripped_skyris_modern_desk",
+	  "mcwfurnituresbyg:stripped_skyris_table",
+	  "mcwfurnituresbyg:stripped_skyris_end_table",
+	  "mcwfurnituresbyg:stripped_skyris_coffee_table",
+	  "mcwfurnituresbyg:stripped_skyris_glass_table",
+	  "mcwfurnituresbyg:stripped_skyris_chair",
+	  "mcwfurnituresbyg:stripped_skyris_modern_chair",
+	  "mcwfurnituresbyg:stripped_skyris_striped_chair",
+	  "mcwfurnituresbyg:stripped_skyris_stool_chair",
+	  "mcwfurnituresbyg:stripped_skyris_counter",
+	  "mcwfurnituresbyg:stripped_skyris_drawer_counter",
+	  "mcwfurnituresbyg:stripped_skyris_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_skyris_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomeswevegone:skyris_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:skyris_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

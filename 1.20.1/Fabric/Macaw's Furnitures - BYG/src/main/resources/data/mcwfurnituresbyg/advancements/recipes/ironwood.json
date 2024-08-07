@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbyg:ironwood_wardrobe",
+	  "mcwfurnituresbyg:ironwood_modern_wardrobe",
+	  "mcwfurnituresbyg:ironwood_double_wardrobe",
+	  "mcwfurnituresbyg:ironwood_bookshelf_cupboard",
+	  "mcwfurnituresbyg:ironwood_bookshelf",
+	  "mcwfurnituresbyg:ironwood_drawer",
+	  "mcwfurnituresbyg:ironwood_double_drawer",
+	  "mcwfurnituresbyg:ironwood_bookshelf_drawer",
+	  "mcwfurnituresbyg:ironwood_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:ironwood_large_drawer",
+	  "mcwfurnituresbyg:ironwood_lower_triple_drawer",
+	  "mcwfurnituresbyg:ironwood_triple_drawer",
+	  "mcwfurnituresbyg:ironwood_desk",
+	  "mcwfurnituresbyg:ironwood_covered_desk",
+	  "mcwfurnituresbyg:ironwood_modern_desk",
+	  "mcwfurnituresbyg:ironwood_table",
+	  "mcwfurnituresbyg:ironwood_end_table",
+	  "mcwfurnituresbyg:ironwood_coffee_table",
+	  "mcwfurnituresbyg:ironwood_glass_table",
+	  "mcwfurnituresbyg:ironwood_chair",
+	  "mcwfurnituresbyg:ironwood_modern_chair",
+	  "mcwfurnituresbyg:ironwood_striped_chair",
+	  "mcwfurnituresbyg:ironwood_stool_chair",
+	  "mcwfurnituresbyg:ironwood_counter",
+	  "mcwfurnituresbyg:ironwood_drawer_counter",
+	  "mcwfurnituresbyg:ironwood_double_drawer_counter",
+	  "mcwfurnituresbyg:ironwood_cupboard_counter",
+	  
+	  "mcwfurnituresbyg:stripped_ironwood_wardrobe",
+	  "mcwfurnituresbyg:stripped_ironwood_modern_wardrobe",
+	  "mcwfurnituresbyg:stripped_ironwood_double_wardrobe",
+	  "mcwfurnituresbyg:stripped_ironwood_bookshelf_cupboard",
+	  "mcwfurnituresbyg:stripped_ironwood_bookshelf",
+	  "mcwfurnituresbyg:stripped_ironwood_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_double_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_lower_bookshelf_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_large_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_lower_triple_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_triple_drawer",
+	  "mcwfurnituresbyg:stripped_ironwood_desk",
+	  "mcwfurnituresbyg:stripped_ironwood_covered_desk",
+	  "mcwfurnituresbyg:stripped_ironwood_modern_desk",
+	  "mcwfurnituresbyg:stripped_ironwood_table",
+	  "mcwfurnituresbyg:stripped_ironwood_end_table",
+	  "mcwfurnituresbyg:stripped_ironwood_coffee_table",
+	  "mcwfurnituresbyg:stripped_ironwood_glass_table",
+	  "mcwfurnituresbyg:stripped_ironwood_chair",
+	  "mcwfurnituresbyg:stripped_ironwood_modern_chair",
+	  "mcwfurnituresbyg:stripped_ironwood_striped_chair",
+	  "mcwfurnituresbyg:stripped_ironwood_stool_chair",
+	  "mcwfurnituresbyg:stripped_ironwood_counter",
+	  "mcwfurnituresbyg:stripped_ironwood_drawer_counter",
+	  "mcwfurnituresbyg:stripped_ironwood_double_drawer_counter",
+	  "mcwfurnituresbyg:stripped_ironwood_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomeswevegone:ironwood_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbyg:ironwood_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

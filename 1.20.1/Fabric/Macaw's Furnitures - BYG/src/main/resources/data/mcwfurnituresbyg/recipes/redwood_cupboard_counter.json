@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "cupboard_counter",
+    "pattern":
+    [
+        "A",
+        "B"	
+    ],
+    
+    "key":
+    { 
+	    "A":
+        {
+            "item": "biomeswevegone:redwood_slab"
+        }, 
+		
+        "B":
+        {
+            "item": "mcwfurnituresbyg:redwood_wardrobe"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwfurnituresbyg:redwood_cupboard_counter",
+        "count": 1
+    }
+}
+
+
