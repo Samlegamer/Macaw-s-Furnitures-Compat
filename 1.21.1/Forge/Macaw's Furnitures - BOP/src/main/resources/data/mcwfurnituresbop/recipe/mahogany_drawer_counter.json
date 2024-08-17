@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "drawer_counter",
+  "pattern" : [ "A", "B" ],
+  "key" : {
+    "A" : {
+      "item" : "biomesoplenty:mahogany_slab"
+    },
+    "B" : {
+      "item" : "mcwfurnituresbop:mahogany_drawer"
+    }
+  },
+  "result" : {
+    "count" : 1,
+    "id" : "mcwfurnituresbop:mahogany_drawer_counter"
+  }
+}

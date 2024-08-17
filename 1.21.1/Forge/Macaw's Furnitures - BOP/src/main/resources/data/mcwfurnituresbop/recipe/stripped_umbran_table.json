@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "table",
+  "pattern" : [ "A", "B" ],
+  "key" : {
+    "A" : {
+      "item" : "mcwfurnituresbop:stripped_umbran_coffee_table"
+    },
+    "B" : {
+      "item" : "biomesoplenty:umbran_fence"
+    }
+  },
+  "result" : {
+    "count" : 1,
+    "id" : "mcwfurnituresbop:stripped_umbran_table"
+  }
+}
