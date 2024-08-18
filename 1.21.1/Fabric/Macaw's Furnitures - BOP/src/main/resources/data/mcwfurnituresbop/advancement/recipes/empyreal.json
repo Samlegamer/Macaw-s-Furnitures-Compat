@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:empyreal_wardrobe",
+	  "mcwfurnituresbop:empyreal_modern_wardrobe",
+	  "mcwfurnituresbop:empyreal_double_wardrobe",
+	  "mcwfurnituresbop:empyreal_bookshelf_cupboard",
+	  "mcwfurnituresbop:empyreal_bookshelf",
+	  "mcwfurnituresbop:empyreal_drawer",
+	  "mcwfurnituresbop:empyreal_double_drawer",
+	  "mcwfurnituresbop:empyreal_bookshelf_drawer",
+	  "mcwfurnituresbop:empyreal_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:empyreal_large_drawer",
+	  "mcwfurnituresbop:empyreal_lower_triple_drawer",
+	  "mcwfurnituresbop:empyreal_triple_drawer",
+	  "mcwfurnituresbop:empyreal_desk",
+	  "mcwfurnituresbop:empyreal_covered_desk",
+	  "mcwfurnituresbop:empyreal_modern_desk",
+	  "mcwfurnituresbop:empyreal_table",
+	  "mcwfurnituresbop:empyreal_end_table",
+	  "mcwfurnituresbop:empyreal_coffee_table",
+	  "mcwfurnituresbop:empyreal_glass_table",
+	  "mcwfurnituresbop:empyreal_chair",
+	  "mcwfurnituresbop:empyreal_modern_chair",
+	  "mcwfurnituresbop:empyreal_striped_chair",
+	  "mcwfurnituresbop:empyreal_stool_chair",
+	  "mcwfurnituresbop:empyreal_counter",
+	  "mcwfurnituresbop:empyreal_drawer_counter",
+	  "mcwfurnituresbop:empyreal_double_drawer_counter",
+	  "mcwfurnituresbop:empyreal_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_empyreal_wardrobe",
+	  "mcwfurnituresbop:stripped_empyreal_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_empyreal_double_wardrobe",
+	  "mcwfurnituresbop:stripped_empyreal_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_empyreal_bookshelf",
+	  "mcwfurnituresbop:stripped_empyreal_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_double_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_large_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_triple_drawer",
+	  "mcwfurnituresbop:stripped_empyreal_desk",
+	  "mcwfurnituresbop:stripped_empyreal_covered_desk",
+	  "mcwfurnituresbop:stripped_empyreal_modern_desk",
+	  "mcwfurnituresbop:stripped_empyreal_table",
+	  "mcwfurnituresbop:stripped_empyreal_end_table",
+	  "mcwfurnituresbop:stripped_empyreal_coffee_table",
+	  "mcwfurnituresbop:stripped_empyreal_glass_table",
+	  "mcwfurnituresbop:stripped_empyreal_chair",
+	  "mcwfurnituresbop:stripped_empyreal_modern_chair",
+	  "mcwfurnituresbop:stripped_empyreal_striped_chair",
+	  "mcwfurnituresbop:stripped_empyreal_stool_chair",
+	  "mcwfurnituresbop:stripped_empyreal_counter",
+	  "mcwfurnituresbop:stripped_empyreal_drawer_counter",
+	  "mcwfurnituresbop:stripped_empyreal_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_empyreal_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:empyreal_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:empyreal_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

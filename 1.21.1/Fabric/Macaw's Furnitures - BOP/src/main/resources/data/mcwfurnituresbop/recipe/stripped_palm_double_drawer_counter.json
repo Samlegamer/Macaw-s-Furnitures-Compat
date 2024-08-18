@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "double_drawer_counter",
+  "pattern" : [ "A", "B" ],
+  "key" : {
+    "A" : {
+      "item" : "biomesoplenty:palm_slab"
+    },
+    "B" : {
+      "item" : "mcwfurnituresbop:stripped_palm_double_drawer"
+    }
+  },
+  "result" : {
+    "count" : 1,
+    "id" : "mcwfurnituresbop:stripped_palm_double_drawer_counter"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:magic_wardrobe",
+	  "mcwfurnituresbop:magic_modern_wardrobe",
+	  "mcwfurnituresbop:magic_double_wardrobe",
+	  "mcwfurnituresbop:magic_bookshelf_cupboard",
+	  "mcwfurnituresbop:magic_bookshelf",
+	  "mcwfurnituresbop:magic_drawer",
+	  "mcwfurnituresbop:magic_double_drawer",
+	  "mcwfurnituresbop:magic_bookshelf_drawer",
+	  "mcwfurnituresbop:magic_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:magic_large_drawer",
+	  "mcwfurnituresbop:magic_lower_triple_drawer",
+	  "mcwfurnituresbop:magic_triple_drawer",
+	  "mcwfurnituresbop:magic_desk",
+	  "mcwfurnituresbop:magic_covered_desk",
+	  "mcwfurnituresbop:magic_modern_desk",
+	  "mcwfurnituresbop:magic_table",
+	  "mcwfurnituresbop:magic_end_table",
+	  "mcwfurnituresbop:magic_coffee_table",
+	  "mcwfurnituresbop:magic_glass_table",
+	  "mcwfurnituresbop:magic_chair",
+	  "mcwfurnituresbop:magic_modern_chair",
+	  "mcwfurnituresbop:magic_striped_chair",
+	  "mcwfurnituresbop:magic_stool_chair",
+	  "mcwfurnituresbop:magic_counter",
+	  "mcwfurnituresbop:magic_drawer_counter",
+	  "mcwfurnituresbop:magic_double_drawer_counter",
+	  "mcwfurnituresbop:magic_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_magic_wardrobe",
+	  "mcwfurnituresbop:stripped_magic_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_magic_double_wardrobe",
+	  "mcwfurnituresbop:stripped_magic_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_magic_bookshelf",
+	  "mcwfurnituresbop:stripped_magic_drawer",
+	  "mcwfurnituresbop:stripped_magic_double_drawer",
+	  "mcwfurnituresbop:stripped_magic_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_magic_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_magic_large_drawer",
+	  "mcwfurnituresbop:stripped_magic_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_magic_triple_drawer",
+	  "mcwfurnituresbop:stripped_magic_desk",
+	  "mcwfurnituresbop:stripped_magic_covered_desk",
+	  "mcwfurnituresbop:stripped_magic_modern_desk",
+	  "mcwfurnituresbop:stripped_magic_table",
+	  "mcwfurnituresbop:stripped_magic_end_table",
+	  "mcwfurnituresbop:stripped_magic_coffee_table",
+	  "mcwfurnituresbop:stripped_magic_glass_table",
+	  "mcwfurnituresbop:stripped_magic_chair",
+	  "mcwfurnituresbop:stripped_magic_modern_chair",
+	  "mcwfurnituresbop:stripped_magic_striped_chair",
+	  "mcwfurnituresbop:stripped_magic_stool_chair",
+	  "mcwfurnituresbop:stripped_magic_counter",
+	  "mcwfurnituresbop:stripped_magic_drawer_counter",
+	  "mcwfurnituresbop:stripped_magic_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_magic_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:magic_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:magic_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
