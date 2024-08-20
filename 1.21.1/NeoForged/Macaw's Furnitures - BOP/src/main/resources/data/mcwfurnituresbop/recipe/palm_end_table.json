@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "end_table",
+  "pattern" : [ "A", "B" ],
+  "key" : {
+    "A" : {
+      "item" : "mcwfurnituresbop:palm_table"
+    },
+    "B" : {
+      "item" : "biomesoplenty:palm_log"
+    }
+  },
+  "result" : {
+    "count" : 1,
+    "id" : "mcwfurnituresbop:palm_end_table"
+  }
+}

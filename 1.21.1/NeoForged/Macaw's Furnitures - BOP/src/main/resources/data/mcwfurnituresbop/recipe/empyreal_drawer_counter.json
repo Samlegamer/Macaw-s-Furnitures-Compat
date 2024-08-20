@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "group" : "drawer_counter",
+  "pattern" : [ "A", "B" ],
+  "key" : {
+    "A" : {
+      "item" : "biomesoplenty:empyreal_slab"
+    },
+    "B" : {
+      "item" : "mcwfurnituresbop:empyreal_drawer"
+    }
+  },
+  "result" : {
+    "count" : 1,
+    "id" : "mcwfurnituresbop:empyreal_drawer_counter"
+  }
+}

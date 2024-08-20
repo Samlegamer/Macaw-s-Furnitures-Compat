@@ -1,0 +1,91 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+	  "mcwfurnitures:cabinet_door",
+	  "mcwfurnitures:cabinet_drawer",
+	
+      "mcwfurnituresbop:dead_wardrobe",
+	  "mcwfurnituresbop:dead_modern_wardrobe",
+	  "mcwfurnituresbop:dead_double_wardrobe",
+	  "mcwfurnituresbop:dead_bookshelf_cupboard",
+	  "mcwfurnituresbop:dead_bookshelf",
+	  "mcwfurnituresbop:dead_drawer",
+	  "mcwfurnituresbop:dead_double_drawer",
+	  "mcwfurnituresbop:dead_bookshelf_drawer",
+	  "mcwfurnituresbop:dead_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:dead_large_drawer",
+	  "mcwfurnituresbop:dead_lower_triple_drawer",
+	  "mcwfurnituresbop:dead_triple_drawer",
+	  "mcwfurnituresbop:dead_desk",
+	  "mcwfurnituresbop:dead_covered_desk",
+	  "mcwfurnituresbop:dead_modern_desk",
+	  "mcwfurnituresbop:dead_table",
+	  "mcwfurnituresbop:dead_end_table",
+	  "mcwfurnituresbop:dead_coffee_table",
+	  "mcwfurnituresbop:dead_glass_table",
+	  "mcwfurnituresbop:dead_chair",
+	  "mcwfurnituresbop:dead_modern_chair",
+	  "mcwfurnituresbop:dead_striped_chair",
+	  "mcwfurnituresbop:dead_stool_chair",
+	  "mcwfurnituresbop:dead_counter",
+	  "mcwfurnituresbop:dead_drawer_counter",
+	  "mcwfurnituresbop:dead_double_drawer_counter",
+	  "mcwfurnituresbop:dead_cupboard_counter",
+	  
+	  "mcwfurnituresbop:stripped_dead_wardrobe",
+	  "mcwfurnituresbop:stripped_dead_modern_wardrobe",
+	  "mcwfurnituresbop:stripped_dead_double_wardrobe",
+	  "mcwfurnituresbop:stripped_dead_bookshelf_cupboard",
+	  "mcwfurnituresbop:stripped_dead_bookshelf",
+	  "mcwfurnituresbop:stripped_dead_drawer",
+	  "mcwfurnituresbop:stripped_dead_double_drawer",
+	  "mcwfurnituresbop:stripped_dead_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_dead_lower_bookshelf_drawer",
+	  "mcwfurnituresbop:stripped_dead_large_drawer",
+	  "mcwfurnituresbop:stripped_dead_lower_triple_drawer",
+	  "mcwfurnituresbop:stripped_dead_triple_drawer",
+	  "mcwfurnituresbop:stripped_dead_desk",
+	  "mcwfurnituresbop:stripped_dead_covered_desk",
+	  "mcwfurnituresbop:stripped_dead_modern_desk",
+	  "mcwfurnituresbop:stripped_dead_table",
+	  "mcwfurnituresbop:stripped_dead_end_table",
+	  "mcwfurnituresbop:stripped_dead_coffee_table",
+	  "mcwfurnituresbop:stripped_dead_glass_table",
+	  "mcwfurnituresbop:stripped_dead_chair",
+	  "mcwfurnituresbop:stripped_dead_modern_chair",
+	  "mcwfurnituresbop:stripped_dead_striped_chair",
+	  "mcwfurnituresbop:stripped_dead_stool_chair",
+	  "mcwfurnituresbop:stripped_dead_counter",
+	  "mcwfurnituresbop:stripped_dead_drawer_counter",
+	  "mcwfurnituresbop:stripped_dead_double_drawer_counter",
+	  "mcwfurnituresbop:stripped_dead_cupboard_counter"
+    ]
+  },
+  "criteria": {
+    "has_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "biomesoplenty:dead_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwfurnituresbop:dead_drawer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wood",
+      "has_the_recipe"
+    ]
+  ]
+}
