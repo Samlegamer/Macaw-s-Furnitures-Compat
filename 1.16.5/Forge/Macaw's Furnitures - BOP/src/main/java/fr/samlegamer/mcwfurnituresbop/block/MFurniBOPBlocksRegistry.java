@@ -39,7 +39,7 @@ public class MFurniBOPBlocksRegistry
 
 	private static final AbstractBlock.Properties WOOD = AbstractBlock.Properties.of(Material.WOOD).harvestLevel(1).harvestTool(ToolType.AXE).strength(2.0F, 2.3F).sound(SoundType.WOOD);
 	
-	public static final RegistryObject<Block> cherry_wardrobe = createBlock("cherry_wardrobe", () -> new TallFurnitureHinge(WOOD));
+	  public static final RegistryObject<Block> cherry_wardrobe = createBlock("cherry_wardrobe", () -> new TallFurnitureHinge(WOOD));
 	  public static final RegistryObject<Block> cherry_modern_wardrobe = createBlock("cherry_modern_wardrobe", () -> new TallFurnitureHinge(WOOD));
 	  public static final RegistryObject<Block> cherry_double_wardrobe = createBlock("cherry_double_wardrobe", () -> new TallFurniture(WOOD));
 	  public static final RegistryObject<Block> cherry_bookshelf = createBlock("cherry_bookshelf", () -> new BookCabinet(WOOD));

@@ -394,7 +394,7 @@ public class MFurniBOPBlocksRegistry
 	  public static final Block stripped_mahogany_double_kitchen_cabinet = new Cabinet(WOOD);
 	  public static final Block stripped_mahogany_glass_kitchen_cabinet = new Cabinet(WOOD);
 	  
-	public static final Block palm_wardrobe = new TallFurnitureHinge(WOOD);
+	  public static final Block palm_wardrobe = new TallFurnitureHinge(WOOD);
 	  public static final Block palm_modern_wardrobe = new TallFurnitureHinge(WOOD);
 	  public static final Block palm_double_wardrobe = new TallFurniture(WOOD);
 	  public static final Block palm_bookshelf = new TallFurniture(WOOD);
@@ -455,7 +455,7 @@ public class MFurniBOPBlocksRegistry
 	  public static final Block stripped_palm_double_kitchen_cabinet = new Cabinet(WOOD);
 	  public static final Block stripped_palm_glass_kitchen_cabinet = new Cabinet(WOOD);
 	  
-	public static final Block redwood_wardrobe = new TallFurnitureHinge(WOOD);
+	  public static final Block redwood_wardrobe = new TallFurnitureHinge(WOOD);
 	  public static final Block redwood_modern_wardrobe = new TallFurnitureHinge(WOOD);
 	  public static final Block redwood_double_wardrobe = new TallFurniture(WOOD);
 	  public static final Block redwood_bookshelf = new TallFurniture(WOOD);
